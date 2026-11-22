@@ -1,0 +1,340 @@
+(footprint "TO546P531X1558X2499-3P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "IRF200P222")
+	(tags "Integrated Circuit")
+	(property "Reference" "Q3"
+		(at 14.9332 -1.016 0)
+		(layer "F.SilkS")
+		(uuid "97df35ed-6c51-4e79-ba36-d2b8e7eb0956")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "IRFP4668PBF"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e6ebc848-4d9e-4cd4-ad5d-33b47e2dceaa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/IRF200P222.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef0736e1-1413-48f3-9880-b8737fb53da4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MOSFET IFX OPTIMOS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a2716ae-868a-441d-8663-9805a0e195d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "5.31"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b96a4a7a-930f-4e65-9ce9-5e782e457d1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "726-IRF200P222"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0629dae-d2e2-4f06-84f0-8d66e39a4c00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRF200P222?qs=u4fy%2FsgLU9OLOvVdBnoDSQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5fe6c77-bd04-4405-a806-225335c52f2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Infineon"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "368b21ad-10a2-4ffb-a10b-905f970281aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "IRFP4668PBF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dffdd0a-1606-487e-8cf5-7e93c9c9b586")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB Part #" "C2921"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "521458e3-6eb9-4c27-91ca-a9266aa8eea9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field8" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2166fea4-2fc2-4a33-81f6-251a4acb1d44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "IRF200P222"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d649348e-0a61-4d61-a8e3-30a92c88e613")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "354cac9d-78a9-4af6-a53e-55242fb360f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.97 -2.91)
+		(end -7.97 0.125)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b913cc1-81bb-4719-9f99-5bf81d7b1070")
+	)
+	(fp_line
+		(start 7.87 -2.095)
+		(end -8 -2.095)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e870bf6e-c0f4-4b2d-b8d6-3f8d98b41771")
+	)
+	(fp_line
+		(start 7.9 2.4)
+		(end 7.9 -2.91)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f73e218d-eefe-495e-aef7-f4cc7d74f264")
+	)
+	(fp_line
+		(start -8.22 -3.16)
+		(end 8.15 -3.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27390fa9-567d-44d4-a8b7-033464b8fea3")
+	)
+	(fp_line
+		(start -8.22 2.65)
+		(end -8.22 -3.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cbbdf9f4-067b-4f37-ae15-65378c9c5b02")
+	)
+	(fp_line
+		(start 8.15 -3.16)
+		(end 8.15 2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce3058f7-0537-48b4-976f-06f20f677805")
+	)
+	(fp_line
+		(start 8.15 2.65)
+		(end -8.22 2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0dbb1935-acbd-494f-82b2-86c9e90cd884")
+	)
+	(fp_line
+		(start -7.97 -2.91)
+		(end 7.9 -2.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58183dd9-b579-403d-be4f-8dfa689d4bc5")
+	)
+	(fp_line
+		(start -7.97 -0.18)
+		(end -5.24 -2.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90b2e85b-e26b-4921-bd50-6d523a210dce")
+	)
+	(fp_line
+		(start -7.97 2.4)
+		(end -7.97 -2.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "713e76b4-eac0-4b8b-8467-7b55dbc73c0f")
+	)
+	(fp_line
+		(start 7.9 -2.91)
+		(end 7.9 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6176616-2dc0-47c6-b7ce-bf1bc0206402")
+	)
+	(fp_line
+		(start 7.9 2.4)
+		(end -7.97 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31d40d43-d12c-4cce-b415-a0dfb869dc01")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ade57bb2-c756-44df-99ad-ef0366b7caf9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -5.46 0)
+		(size 2.79 2.79)
+		(drill 1.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae322645-6b75-4ac6-a325-b99459823514")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.79 2.79)
+		(drill 1.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c16539ee-953e-4468-a9c9-15f3a869a2a3")
+	)
+	(pad "3" thru_hole circle
+		(at 5.46 0)
+		(size 2.79 2.79)
+		(drill 1.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59e1398d-4580-4d5c-893b-55e05878c643")
+	)
+	(embedded_fonts no)
+	(model "IRF200P222.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

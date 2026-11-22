@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RS6_2415D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "RECOM Power", "RS6-2415D" (!) = "", "RS60505S", "Other", "919-RS6-2415D", "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-2415D?qs=FLBwGrBR9%252B2lkkKHhWDM6A%3D%3D", "Recom RS6 Through Hole 6W, Vout +/-15V dc Isolated DC-DC Converter, Vin 4.5  9 V dc", "https://www.recom-power.com/pdf/Econoline/RS6.pdf", "11.6 mm"
+END_PART
+
+END.

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_2382720"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-03-05-09:45:53)
+    (utime 2025-03-05-09:45:53)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MURS160HE3_A_H")
+)
+
+
+(pinAssign "ECS_2382720"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-03-05-09:45:53)
+    (utime 2025-03-05-09:45:53)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_2382720")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MURS160HE3_A_H")
+)
+
+
+(part "MURS160HE3_A_H"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-03-05-09:45:53)
+    (utime 2025-03-05-09:45:53)
+    (packageRef "MURS160HE3_A_H")
+    (pinAssignRef "ECS_2382720")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Rectifiers 1A,600V,50ns SMB, UF Rect, SMD")
+    (property "Mouser_Part_Number" "78-MURS160HE3_A/H")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/MURS160HE3_A-H?qs=3SS1MhAOHqq6H5%2FgmjoJ4g%3D%3D")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "MURS160HE3_A/H")
+    (property "Datasheet_Link" "https://www.vishay.com/docs/88688/murs140.pdf")
+    (property "compAreaTopHeight" 2.44)
+)
+
+

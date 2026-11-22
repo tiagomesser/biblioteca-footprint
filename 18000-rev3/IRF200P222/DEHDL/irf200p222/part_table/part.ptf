@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IRF200P222'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "IRF200P222" (!) = "", "TO546P531X1558X2499-3P", "Transistor Outline, Vertical", "726-IRF200P222", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRF200P222?qs=u4fy%2FsgLU9OLOvVdBnoDSQ%3D%3D", "MOSFET IFX OPTIMOS", "https://componentsearchengine.com/Datasheets/1/IRF200P222.pdf", "5.31 mm"
+END_PART
+
+END.

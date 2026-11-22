@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "750311856"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-11-15-13:35:18)
+    (mountForm default
+        (footprintRef "WE_EP13_SMD_12PIN81")
+        (spec "System")
+    )
+)

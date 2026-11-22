@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1EDI3023ASXUMA1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "1EDI3023ASXUMA1" (!) = "", "SOP50P1030X265-20M", "Small Outline Packages", "726-1EDI3023ASXUMA1", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/1EDI3023ASXUMA1?qs=eP2BKZSCXI7lDN1wWpWgyg%3D%3D", "ISOLATED_HVGD, PG-DSO-20", "https://www.infineon.com/dgdl/Infineon-1EDI3023AS-DataSheet-v01_10-EN.pdf?fileId=5546d4627956d53f01798965e8a90c57", "2.65 mm"
+END_PART
+
+END.

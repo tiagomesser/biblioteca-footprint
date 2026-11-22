@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=1EDI3023ASXUMA1
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=20
+Version=2.1
+Released=2022-06-18 04:03:49
+Downloaded=2025-04-29 15:28:22
+3D=Y

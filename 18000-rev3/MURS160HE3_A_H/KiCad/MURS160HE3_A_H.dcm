@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MURS160HE3_A_H
+D Rectifiers 1A,600V,50ns SMB, UF Rect, SMD
+K
+F https://www.vishay.com/docs/88688/murs140.pdf
+$ENDCMP
+#
+#End Doc Library

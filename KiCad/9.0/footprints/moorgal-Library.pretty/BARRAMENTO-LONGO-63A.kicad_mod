@@ -1,0 +1,221 @@
+(footprint "BARRAMENTO-LONGO-63A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e37fe91b-9be5-485b-82ab-05714404ff20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BARRAMENTO-LONGO-63A"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ff2aea18-9f0f-4340-baea-200306d2132d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "942caee9-2e0f-4e9b-ab14-13eb7bf23b5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfa01a80-d6c3-4b6b-b784-f63eafb92c5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 -149)
+		(end -2.6 4.74)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31fcc5e4-1c44-45bc-a035-a680bcf8f908")
+	)
+	(fp_line
+		(start 2.6 -149)
+		(end -2.6 -149)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e9f0140-45d3-48ac-8447-7e479868e02d")
+	)
+	(fp_line
+		(start 2.6 -149)
+		(end 2.6 4.74)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db848dcd-a45a-407b-be15-b60184f085ae")
+	)
+	(fp_line
+		(start 2.62 4.71)
+		(end -2.58 4.71)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85bcb201-444c-47a8-a8d8-ccd12e0541e5")
+	)
+	(fp_line
+		(start -3 -150)
+		(end 3 -150)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f04fb6ce-f0d3-4401-a3a0-325d950c6c41")
+	)
+	(fp_line
+		(start -3 5)
+		(end -3 -150)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54724058-134f-497c-904c-2fec5195e3d5")
+	)
+	(fp_line
+		(start -3 5)
+		(end 3 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7baad277-7431-4a11-b7c7-d38ee59940c7")
+	)
+	(fp_line
+		(start 3 -150)
+		(end 3 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9e362fb-01ec-48fb-a9cb-35405848da55")
+	)
+	(fp_line
+		(start -2.59 -149)
+		(end 2.53 -149)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37ae0dfa-998b-4f5f-8f3f-2981ecc48a61")
+	)
+	(fp_line
+		(start 2.59 -40.6)
+		(end 2.62 4.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6d270ad-65eb-45e4-bde6-701e9a4108fb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3e0d6772-5b35-4af4-b132-512a06387273")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.585 0.295 90)
+		(layer "F.Fab")
+		(uuid "bb64fcd7-69cc-4a09-8b8a-c19770bb36ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 6.79 2.79)
+		(drill oval 5.86 1.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f82bcfac-a213-455e-9461-8f7c2649241e")
+	)
+	(pad "2" thru_hole rect
+		(at 0 -36 90)
+		(size 6.79 2.79)
+		(drill oval 5.86 1.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "381fb2f5-e1be-475c-b9a4-c9e53a387347")
+	)
+	(pad "3" thru_hole rect
+		(at 0 -72 90)
+		(size 6.79 2.79)
+		(drill oval 5.86 1.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8f9e86d4-e687-4026-baca-c02f6a02ef0b")
+	)
+	(pad "4" thru_hole rect
+		(at 0 -108 90)
+		(size 6.79 2.79)
+		(drill oval 5.86 1.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "570d8e7d-a441-45a6-a4fb-d6b4f0e25340")
+	)
+	(pad "5" thru_hole rect
+		(at 0 -144 90)
+		(size 6.79 2.79)
+		(drill oval 5.86 1.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dcfb7620-83eb-4644-b48a-925a1bdde011")
+	)
+	(embedded_fonts no)
+)

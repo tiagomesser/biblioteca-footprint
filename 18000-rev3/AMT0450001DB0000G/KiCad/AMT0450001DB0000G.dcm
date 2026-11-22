@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AMT0450001DB0000G
+D Terminals Current (A) : 70AScrew : M5Torque : 18 lbf.in BrassTerminal Part+Steel Nut (plating : matte tin)Pin out :  4PINMount Type : DIP
+K
+F https://www.anytek.com.cn/Upload/AMT45001DB-352489b0842f431da6f1e883ac379f05.pdf
+$ENDCMP
+#
+#End Doc Library

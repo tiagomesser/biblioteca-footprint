@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STPS1L30A
+D Schottky barrier diode,STPS1L30A SMA STMicroelectronics STPS1L30A, SMT Schottky Diode, 30V 1A, 2-Pin DO-214AC
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001323.pdf
+$ENDCMP
+#
+#End Doc Library

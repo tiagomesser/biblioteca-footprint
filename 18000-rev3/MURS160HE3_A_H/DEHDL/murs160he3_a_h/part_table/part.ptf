@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MURS160HE3_A_H'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "MURS160HE3_A/H" (!) = "", "DIOM5436X244N", "Diodes Moulded", "78-MURS160HE3_A/H", "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/MURS160HE3_A-H?qs=3SS1MhAOHqq6H5%2FgmjoJ4g%3D%3D", "Rectifiers 1A,600V,50ns SMB, UF Rect, SMD", "https://www.vishay.com/docs/88688/murs140.pdf", "2.44 mm"
+END_PART
+
+END.

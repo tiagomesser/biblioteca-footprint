@@ -1,0 +1,16 @@
+.MURS160HE3_A_H :1 ;Rectifiers 1A,600V,50ns SMB, UF Rect, SMD
+DIOM5436X244N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN MURS160HE3_A_H
+~!Mouser Part Number (78-MURS160HE3_A/H)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/MURS160HE3_A-H?qs=3SS1MhAOHqq6H5%2FgmjoJ4g%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (MURS160HE3_A/H)
+~!Link Datasheet (https://www.vishay.com/docs/88688/murs140.pdf)
+~!Height (2.44mm)
+~!3D_Model (MURS160HE3_A_H)
+MURS160HE3_A_H
+1.1!U 2.1!U 

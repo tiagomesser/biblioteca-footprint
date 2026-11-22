@@ -1,0 +1,1051 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SBR40U300CTB
+#/11597673/1657704/2.50/3/4/Schottky Diode
+DEF SBR40U300CTB D 0 30 Y Y 1 F N
+F0 "D" 950 300 50 H V L CNN
+F1 "SBR40U300CTB" 950 200 50 H V L CNN
+F2 "SBR40U300CTB" 950 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/1912071505_Diodes-Incorporated-SBR40U300CTB_C443663.pdf" 950 0 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers 40A 300 ULTRA-LOW VF" 950 -100 50 H I L CNN "Description"
+F5 "4.82" 950 -200 50 H I L CNN "Height"
+F6 "621-SBR40U300CTB" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR40U300CTB?qs=nSryOFbzj8Kl22ChW302NA%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Incorporated" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SBR40U300CTB" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A_1 1 0 0 200 R 50 50 0 0 P
+X COM_K 2 1100 0 200 L 50 50 0 0 P
+X A_2 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model VS-8EWS12STR-M3
+#/1038563/1657704/2.50/3/3/Diode
+DEF VS-8EWS12STR-M3 D 0 30 Y Y 1 F N
+F0 "D" 750 300 50 H V L CNN
+F1 "VS-8EWS12STR-M3" 750 200 50 H V L CNN
+F2 "VS8EWS12STRM3" 750 100 50 H I L CNN
+F3 "https://www.digikey.ph/en/products/detail/vishay-general-semiconductor-diodes-division/VS-8EWS12STR-M3/4933854?s=N4IgTCBcDaIGoGUC0AOAogdQQRjAgKgEpICyAzCALoC%2BQA" 750 0 50 H I L CNN
+F4 "DIODE STANDARD 1200V 8A TO252AA" 750 -100 50 H I L CNN "Description"
+F5 "2.52" 750 -200 50 H I L CNN "Height"
+F6 "78-VS-8EWS12STR-M3" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-8EWS12STR-M3?qs=asPD7ZL2j3UDMpCUDynIkA%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "VS-8EWS12STR-M3" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A_1 1 0 0 200 R 50 50 0 0 P
+X K 2 900 0 200 L 50 50 0 0 P
+X A_2 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model V35PW22HM3_I
+#/12870718/1657704/2.50/3/3/Schottky Diode
+DEF V35PW22HM3_I D 0 30 Y Y 1 F N
+F0 "D" 750 300 50 H V L CNN
+F1 "V35PW22HM3_I" 750 200 50 H V L CNN
+F2 "V35PW22HM3I" 750 100 50 H I L CNN
+F3 "https://www.vishay.com/docs/87006/v35pw22.pdf" 750 0 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers 35A 200V AEC-Q101" 750 -100 50 H I L CNN "Description"
+F5 "1.6" 750 -200 50 H I L CNN "Height"
+F6 "78-V35PW22HM3/I" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/V35PW22HM3-I?qs=7MVldsJ5Uay9t8H2iglZMw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "V35PW22HM3/I" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A_1 1 0 -100 200 R 50 50 0 0 P
+X A_2 2 0 0 200 R 50 50 0 0 P
+X K 3 900 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1098174
+#/16728075/1657704/2.50/2/3/Connector
+DEF 1098174 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1098174" 650 200 50 H V L CNN
+F2 "1098174" 650 100 50 H I L CNN
+F3 "https://www.phoenixcontact.com/en-pc/products/pcb-terminal-block-lpta-6-1-75-1098174" 650 0 50 H I L CNN
+F4 "Pluggable Terminal Blocks LPTA 6/ 1-7,5" 650 -100 50 H I L CNN "Description"
+F5 "30.16" 650 -200 50 H I L CNN "Height"
+F6 "651-1098174" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1098174?qs=t7xnP681wgWgt4Osz%2F40Vg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Phoenix Contact" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1098174" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3550120RJT
+#/9054846/1657704/2.50/2/3/Resistor
+DEF 3550120RJT R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "3550120RJT" 550 150 50 H V L CNN
+F2 "RESC11050X120N" 550 50 50 H I L CNN
+F3 "" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD 3550 120R 5%" 550 -150 50 H I L CNN "Description"
+F5 "1.2" 550 -250 50 H I L CNN "Height"
+F6 "279-3550120RJT" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/3550120RJT?qs=gZXFycFWdANEOVybeTgvjg%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "3550120RJT" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B32674D3106K
+#/645399/1657704/2.50/2/3/Capacitor
+DEF B32674D3106K C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "B32674D3106K" 350 150 50 H V L CNN
+F2 "B32674D3106K" 350 50 50 H I L CNN
+F3 "https://en.tdk.eu/inf/20/20/db/fc_2009/MKP_B32674_678.pdf" 350 -50 50 H I L CNN
+F4 "Cap Film 10uF 300V PP 10% (31.5 X 21 X 31mm) Radial 27.5mm 0.0029 Ohm 100C Automotive Bulk" 350 -150 50 H I L CNN "Description"
+F5 "31" 350 -250 50 H I L CNN "Height"
+F6 "871-B32674D3106K" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32674D3106K?qs=IQR8xM2KsGh4Bj%252BADDcoUw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "B32674D3106K" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B32674D3475K
+#/889798/1657704/2.50/2/3/Capacitor
+DEF B32674D3475K C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "B32674D3475K" 350 150 50 H V L CNN
+F2 "B32674D3475K" 350 50 50 H I L CNN
+F3 "https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/MKP_B32674_678.pdf" 350 -50 50 H I L CNN
+F4 "Film Capacitors 4.7uF 300volts 10% 27.5mmL/S 0.8mmL/D" 350 -150 50 H I L CNN "Description"
+F5 "24.5" 350 -250 50 H I L CNN "Height"
+F6 "871-B32674D3475K" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32674D3475K?qs=IQR8xM2KsGism2p1u8YKxw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "B32674D3475K" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B32676G3356K000
+#/15297230/1657704/2.50/4/2/Capacitor
+DEF B32676G3356K000 C 0 30 Y Y 1 F N
+F0 "C" 650 300 50 H V L CNN
+F1 "B32676G3356K000" 650 200 50 H V L CNN
+F2 "B32676G3356K000" 650 100 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/db/fc_2009/mkp_b32674_678.pdf" 650 0 50 H I L CNN
+F4 "Metallized Polypropylene Capacitors (MKP/MFP), 35uF, 300V DC, 33mm(W) x 48mm(H) x 42mm(L)" 650 -100 50 H I L CNN "Description"
+F5 "48" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "B32676G3356K000" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B32678G6256K000
+#/11401362/1657704/2.50/4/2/Capacitor
+DEF B32678G6256K000 C 0 30 Y Y 1 F N
+F0 "C" 650 300 50 H V L CNN
+F1 "B32678G6256K000" 650 200 50 H V L CNN
+F2 "B32678G6256K000" 650 100 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/db/fc_2009/mkp_b32674_678.pdf" 650 0 50 H I L CNN
+F4 "Metallized Polypropylene Capacitors (MKP/MFP), 25uF, 630V DC, 35mm(W) x 50mm(H) x 57.5mm(L)" 650 -100 50 H I L CNN "Description"
+F5 "50" 650 -200 50 H I L CNN "Height"
+F6 "871-B32678G6256K" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32678G6256K000?qs=mz7Iz7JhaAWh3S5CTdknow%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "B32678G6256K000" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model NSVBAS21HT1G
+#/793588/1657704/2.50/2/2/Diode
+DEF NSVBAS21HT1G D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "NSVBAS21HT1G" 450 100 50 H V L CNN
+F2 "LEDC1712X100N" 450 0 50 H I L CNN
+F3 "https://www.onsemi.com/products/discrete-power-modules/small-signal-switching-diodes/BAS21HT" 450 -100 50 H I L CNN
+F4 "250 V Switching Diode High Voltage" 450 -200 50 H I L CNN "Description"
+F5 "1" 450 -300 50 H I L CNN "Height"
+F6 "863-NSVBAS21HT1G" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/onsemi/NSVBAS21HT1G?qs=pqrSHODkHot9ArUSxEfUgA%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "onsemi" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "NSVBAS21HT1G" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EKXJ201ELL331MMN3S
+#/486374/1657704/2.50/2/3/Capacitor
+DEF EKXJ201ELL331MMN3S C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EKXJ201ELL331MMN3S" 350 150 50 H V L CNN
+F2 "CAPPRD750W80D1825H3300" 350 50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA21/2010896.pdf" 350 -50 50 H I L CNN
+F4 "Nippon Chemi-Con 330uF 200 V dc Aluminium Electrolytic Capacitor MN3, KXJ Series 12000h 18 x 31.5mm" 350 -150 50 H I L CNN "Description"
+F5 "33" 350 -250 50 H I L CNN "Height"
+F6 "661-EKXJ201ELL331MMN" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/EKXJ201ELL331MMN3S?qs=RpYEFuZ7GTij621kUg%2FDWg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Chemi-Con" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "EKXJ201ELL331MMN3S" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model C3216C0G2J102J085AA
+#/342677/1657704/2.50/2/2/Capacitor
+DEF C3216C0G2J102J085AA C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C3216C0G2J102J085AA" 350 150 50 H V L CNN
+F2 "CAPC3216X100N" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" 350 -50 50 H I L CNN
+F4 "TDK C3216 C 1nF Ceramic Multilayer Capacitor, 630 V dc, +125C, C0G Dielectric, +/-5% SMD" 350 -150 50 H I L CNN "Description"
+F5 "1" 350 -250 50 H I L CNN "Height"
+F6 "810-C3216C0G2J102J" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK/C3216C0G2J102J085AA?qs=NRhsANhppD9JpRkgzQVJrg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C3216C0G2J102J085AA" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model C3216C0G2J103J160AA
+#/2108680/1657704/2.50/2/2/Capacitor
+DEF C3216C0G2J103J160AA C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C3216C0G2J103J160AA" 350 150 50 H V L CNN
+F2 "CAPC3216X180N" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" 350 -50 50 H I L CNN
+F4 "MULTILAYER CERAMIC CHIP CAPACITORS, 3216, Commercial grade, general (Up to 75V)" 350 -150 50 H I L CNN "Description"
+F5 "1.8" 350 -250 50 H I L CNN "Height"
+F6 "810-C3216C0G2J103JAA" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK/C3216C0G2J103J160AA?qs=6JAMGB%252BEdkyXxxQ5hzLKiw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C3216C0G2J103J160AA" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CGA5L4C0G2J103J160AA
+#/361527/1657704/2.50/2/2/Capacitor
+DEF CGA5L4C0G2J103J160AA C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "CGA5L4C0G2J103J160AA" 350 150 50 H V L CNN
+F2 "CAPC3216X190N" 350 50 50 H I L CNN
+F3 "" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:3.2x1.6x1.6mm" 350 -150 50 H I L CNN "Description"
+F5 "1.9" 350 -250 50 H I L CNN "Height"
+F6 "810-CGA5L4C0G2J103J" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK/CGA5L4C0G2J103J160AA?qs=FxQuwy19cyCxuwFxJFyKWQ%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CGA5L4C0G2J103J160AA" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DTO025C220R0JTE3
+#/1232942/1657704/2.50/3/4/Resistor
+DEF DTO025C220R0JTE3 R 0 30 Y Y 1 F N
+F0 "R" 650 300 50 H V L CNN
+F1 "DTO025C220R0JTE3" 650 200 50 H V L CNN
+F2 "DTO025C220R0JTE3" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/DTO025C220R0JTE3.pdf" 650 0 50 H I L CNN
+F4 "Res Thick Film 220 Ohm 5% 25W +/-150ppm/C TO-252 Gull Wing SMD Automotive Tube" 650 -100 50 H I L CNN "Description"
+F5 "3.1" 650 -200 50 H I L CNN "Height"
+F6 "72-DTO025C220R0JTE3" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Sfernice/DTO025C220R0JTE3?qs=2ECNu9wPwy76T69q4miavg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DTO025C220R0JTE3" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PWR263S-35-2R00F
+#/814682/1657704/2.50/3/4/Resistor
+DEF PWR263S-35-2R00F R 0 30 Y Y 1 F N
+F0 "R" 650 300 50 H V L CNN
+F1 "PWR263S-35-2R00F" 650 200 50 H V L CNN
+F2 "PWR263S3556R0F" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/PWR263S-35-2R00F.pdf" 650 0 50 H I L CNN
+F4 "Thick Film Resistors - SMD 2Ohms 1% 250V" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "652-PWR263S352R00F" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/PWR263S-35-2R00F?qs=oyIm%2F3giSj4o5ujMpm0nYw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PWR263S-35-2R00F" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PWR263S-35-1R00JE
+#/11979017/1657704/2.50/4/4/Resistor
+DEF PWR263S-35-1R00JE R 0 30 Y Y 1 F N
+F0 "R" 650 300 50 H V L CNN
+F1 "PWR263S-35-1R00JE" 650 200 50 H V L CNN
+F2 "PWR263S3515R0F" 650 100 50 H I L CNN
+F3 "https://www.bourns.com/data/global/pdfs/PWR263S-35.pdf" 650 0 50 H I L CNN
+F4 "POWER RESISTOR 5% /" 650 -100 50 H I L CNN "Description"
+F5 "4.5" 650 -200 50 H I L CNN "Height"
+F6 "652-PWR263S351R00JE" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/PWR263S-35-1R00JE?qs=9m5lDiJJL35UKLTV8J7H2g%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PWR263S-35-1R00JE" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MOV-14D121K
+#/676250/1657704/2.50/2/3/Varistor
+DEF MOV-14D121K RV 0 30 Y Y 1 F N
+F0 "RV" 550 250 50 H V L CNN
+F1 "MOV-14D121K" 550 150 50 H V L CNN
+F2 "MOV14D121K" 550 50 50 H I L CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/MOV14D.pdf" 550 -50 50 H I L CNN
+F4 "120 V 4.5 kA Varistor 1 Circuit Through Hole Disc 14mm VARISTOR 120V 4.5KA DISC 14MM" 550 -150 50 H I L CNN "Description"
+F5 "20" 550 -250 50 H I L CNN "Height"
+F6 "652-MOV-14D121K" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/MOV-14D121K?qs=CQ3B1E%252BbPs3APGdO3DCNyw%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "MOV-14D121K" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 4 0 1 6 150 -100 250 -100 450 100 550 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B32652A3824J000
+#/11445245/1657704/2.50/2/2/Capacitor
+DEF B32652A3824J000 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "B32652A3824J000" 350 150 50 H V L CNN
+F2 "B32652_(18_x_11)" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/db/fc_2009/mkp_b32651_658.pdf" 350 -50 50 H I L CNN
+F4 "Metallized Polypropylene Capacitors (MKP/MFP), 0.82uF, 250V DC, 11mm(W)x18.5mm(H)x18mm(L)" 350 -150 50 H I L CNN "Description"
+F5 "18.5" 350 -250 50 H I L CNN "Height"
+F6 "871-B32652A3824J" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32652A3824J000?qs=Uha62PnlbFDxyk3GarLeVA%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "B32652A3824J000" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B32654A3475J000
+#/889797/1657704/2.50/2/2/Capacitor
+DEF B32654A3475J000 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "B32654A3475J000" 350 150 50 H V L CNN
+F2 "B32654A3475J000" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/db/fc_2009/mkp_b32651_658.pdf" 350 -50 50 H I L CNN
+F4 "Metallized Polypropylene Capacitors (MKP/MFP), 4.7uF, 250V DC, 18mm(W) x 27.5mm(H) x 31.5mm(L)" 350 -150 50 H I L CNN "Description"
+F5 "27.5" 350 -250 50 H I L CNN "Height"
+F6 "871-B32654A3475J" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32654A3475J000?qs=Ff9BYJREiZ7dpbkr2jOg%252Bw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "B32654A3475J000" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B32653A3225J000
+#/2060609/1657704/2.50/2/2/Capacitor
+DEF B32653A3225J000 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "B32653A3225J000" 350 150 50 H V L CNN
+F2 "B32653_(26.5_x_14.5)" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/db/fc_2009/mkp_b32651_658.pdf" 350 -50 50 H I L CNN
+F4 "Metallized Polypropylene Capacitors (MKP/MFP), 2.2uF, 250V DC, 14.5mm(W) x 29.5mm(H) x 26.5mm(L)" 350 -150 50 H I L CNN "Description"
+F5 "29.5" 350 -250 50 H I L CNN "Height"
+F6 "871-B32653A3225J000" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32653A3225J000?qs=8Dv1RiiPiVIvj5LXMs%252B32w%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "B32653A3225J000" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B32652A3105J000
+#/11918619/1657704/2.50/2/2/Capacitor
+DEF B32652A3105J000 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "B32652A3105J000" 350 150 50 H V L CNN
+F2 "B32652_(18_x_11)" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/db/fc_2009/mkp_b32651_658.pdf" 350 -50 50 H I L CNN
+F4 "Metallized Polypropylene Capacitors (MKP/MFP), 1uF, 250V DC, 11mm(W) x 18.5mm(H) x 18mm(L)" 350 -150 50 H I L CNN "Description"
+F5 "18.5" 350 -250 50 H I L CNN "Height"
+F6 "871-B32652A3105J000" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32652A3105J000?qs=W0yvOO0ixfHRSdI3hqAklg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "B32652A3105J000" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AMC1311BDWVR
+#/1011499/1657704/2.50/8/4/Integrated Circuit
+DEF AMC1311BDWVR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "AMC1311BDWVR" 1050 200 50 H V L CNN
+F2 "SOIC127P1150X280-8N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/amc1311" 1050 0 50 H I L CNN
+F4 "Precision Reinforced Isolated Amplifier With High CMTI for Current Sensing" 1050 -100 50 H I L CNN "Description"
+F5 "2.8" 1050 -200 50 H I L CNN "Height"
+F6 "595-AMC1311BDWVR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/AMC1311BDWVR?qs=W0yvOO0ixfFQekR98E4CkQ%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AMC1311BDWVR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VDD1 1 0 0 200 R 50 50 0 0 P
+X VIN 2 0 -100 200 R 50 50 0 0 P
+X SHTDN 3 0 -200 200 R 50 50 0 0 P
+X GND1 4 0 -300 200 R 50 50 0 0 P
+X VDD2 8 1200 0 200 L 50 50 0 0 P
+X VOUTP 7 1200 -100 200 L 50 50 0 0 P
+X VOUTN 6 1200 -200 200 L 50 50 0 0 P
+X GND2 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TLV9001QDBVRQ1
+#/18678038/1657704/2.50/5/3/Integrated Circuit
+DEF TLV9001QDBVRQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "TLV9001QDBVRQ1" 850 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 850 100 50 H I L CNN
+F3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tlv9004-q1" 850 0 50 H I L CNN
+F4 "Operational Amplifiers - Op Amps Automotive, single-channel, 5.5-V 1-MHz rail-to-rail input and output operational amplifier" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "595-TLV9001QDBVRQ1" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9001QDBVRQ1?qs=2SLPxufLcgClu8A4lY5dMQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TLV9001QDBVRQ1" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X V- 2 0 -100 200 R 50 50 0 0 P
+X IN+ 3 0 -200 200 R 50 50 0 0 P
+X IN- 4 1000 0 200 L 50 50 0 0 P
+X V+ 5 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EEH-AZA1H470B
+#/13507752/1657704/2.50/2/2/Capacitor Polarised
+DEF EEH-AZA1H470B C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEH-AZA1H470B" 350 150 50 H V L CNN
+F2 "CAPPRD350W65D800H1050" 350 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDD0000/ast-ind-139023.pdf" 350 -50 50 H I L CNN
+F4 "- Hybrid Aluminium Electrolytic Capacitor, 47 F, +/- 20%, 50 V, ZA Series, Radial Leaded, 0.03 ohm." 350 -150 50 H I L CNN "Description"
+F5 "10.5" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "EEH-AZA1H470B" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RB080AR-40T7R
+#/19251988/1657704/2.50/2/2/Schottky Diode
+DEF RB080AR-40T7R D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "RB080AR-40T7R" 500 250 50 H V L CNN
+F2 "RB080AR40T7R" 500 150 50 H I L CNN
+F3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb080ar-40t7r-e.pdf" 500 50 50 H I L CNN
+F4 "RASMID Series, Low V<sub>F</sub>, 40V, 4A, SMD2012, Schottky Barrier Diode" 500 -50 50 H I L CNN "Description"
+F5 "0.339" 500 -150 50 H I L CNN "Height"
+F6 "755-RB080AR-40T7R" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RB080AR-40T7R?qs=Imq1NPwxi74XiEq%2FxzCvFg%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "RB080AR-40T7R" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SD0805S020S0R5
+#/707894/1657704/2.50/2/3/Diode
+DEF SD0805S020S0R5 D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "SD0805S020S0R5" 450 100 50 H V L CNN
+F2 "DIOC2013X100N" 450 0 50 H I L CNN
+F3 "https://datasheets.kyocera-avx.com/schottky.pdf" 450 -100 50 H I L CNN
+F4 "AVX - SD0805S020S0R5 - Schottky Rectifier, 20 V, 500 mA, Single, SOD-323, 2 Pins, 440 mV" 450 -200 50 H I L CNN "Description"
+F5 "1" 450 -300 50 H I L CNN "Height"
+F6 "581-SD0805S020S0R5" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/AVX/SD0805S020S0R5?qs=jCA%252BPfw4LHZ%252BeTNuLGlRmA%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "Kyocera AVX" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "SD0805S020S0R5" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 502352-0800
+#/267628/1657704/2.50/10/4/Connector
+DEF 502352-0800 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "502352-0800" 750 200 50 H V L CNN
+F2 "5023520800" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/502352-0800.pdf" 750 0 50 H I L CNN
+F4 "Molex DURACLIK 502352, 2mm Pitch, 8 Way, 1 Row, Right Angle PCB Header, Surface Mount" 750 -100 50 H I L CNN "Description"
+F5 "6.6" 750 -200 50 H I L CNN "Height"
+F6 "538-502352-0800" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/502352-0800?qs=%2FbwszJjB8%2FAe9HJIMS2XAQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "502352-0800" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 900 0 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 -200 200 L 50 50 0 0 P
+X 4 4 900 -300 200 L 50 50 0 0 P
+X 5 5 900 -400 200 L 50 50 0 0 P
+X 6 6 900 -500 200 L 50 50 0 0 P
+X 7 7 900 -600 200 L 50 50 0 0 P
+X 8 8 900 -700 200 L 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 502352-0700
+#/273955/1657704/2.50/9/3/Connector
+DEF 502352-0700 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "502352-0700" 750 200 50 H V L CNN
+F2 "5023520700" 750 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/5023520700_sd.pdf" 750 0 50 H I L CNN
+F4 "DuraClik Wire-to-Board Header, Single Row, Right-Angle, 7 Circuits, Tin (Sn) Plating, Natural  " 750 -100 50 H I L CNN "Description"
+F5 "6.6" 750 -200 50 H I L CNN "Height"
+F6 "538-502352-0700" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/502352-0700?qs=yd8XiKYcH9k3FzXAwcvEAg%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "502352-0700" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 900 0 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 -200 200 L 50 50 0 0 P
+X 4 4 900 -300 200 L 50 50 0 0 P
+X 5 5 900 -400 200 L 50 50 0 0 P
+X 6 6 900 -500 200 L 50 50 0 0 P
+X 7 7 900 -600 200 L 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TMH_1205S
+#/1320615/1657704/2.50/4/2/Power Supply
+DEF TMH_1205S PS 0 30 Y Y 1 F N
+F0 "PS" 1150 300 50 H V L CNN
+F1 "TMH_1205S" 1150 200 50 H V L CNN
+F2 "TMH0505S" 1150 100 50 H I L CNN
+F3 "https://tracopower.com/tmh-datasheet/" 1150 0 50 H I L CNN
+F4 "2 Watt DC/DC converter, industrial, unregulated, encapsulated, SIP-7 package" 1150 -100 50 H I L CNN "Description"
+F5 "10.45" 1150 -200 50 H I L CNN "Height"
+F6 "495-TMH-1205S" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TMH-1205S?qs=ckJk83FOD0XJJ9gX8IM47g%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Traco Power" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TMH 1205S" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X +VIN_(VCC) 1 0 0 200 R 50 50 0 0 P
+X -VIN_(GND) 2 0 -100 200 R 50 50 0 0 P
+X -VOUT 4 0 -200 200 R 50 50 0 0 P
+X +VOUT 6 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 43045-0800
+#/252412/1657704/2.50/8/2/Connector
+DEF 43045-0800 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "43045-0800" 650 200 50 H V L CNN
+F2 "43045-08(00,01,02,10)" 650 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" 650 0 50 H I L CNN
+F4 "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Dual Row, 8 Circuits, with Snap-in Plastic Peg PCB Lock" 650 -100 50 H I L CNN "Description"
+F5 "8.77" 650 -200 50 H I L CNN "Height"
+F6 "538-43045-0800" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/43045-0800?qs=MGlPTwjtJ4Z70Z3DbkGxKw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "43045-0800" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -300 200 R 50 50 0 0 P
+X 2 2 0 -200 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
+X 5 5 800 -300 200 L 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+X 7 7 800 -100 200 L 50 50 0 0 P
+X 8 8 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TLV9002IDR
+#/1026720/1657704/2.50/8/4/Integrated Circuit
+DEF TLV9002IDR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TLV9002IDR" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tlv9002" 950 0 50 H I L CNN
+F4 "2-Channel, 1MHz, RRIO, 1.8V to 5.5V Operational Amplifier for Cost-Optimized Systems" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "595-TLV9002IDR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9002IDR?qs=xhbEVWpZdWdPu%252BhBN%252BBREg%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TLV9002IDR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT1 1 0 0 200 R 50 50 0 0 P
+X IN1- 2 0 -100 200 R 50 50 0 0 P
+X IN1+ 3 0 -200 200 R 50 50 0 0 P
+X V- 4 0 -300 200 R 50 50 0 0 P
+X V+ 8 1100 0 200 L 50 50 0 0 P
+X OUT2 7 1100 -100 200 L 50 50 0 0 P
+X IN2- 6 1100 -200 200 L 50 50 0 0 P
+X IN2+ 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TLV9002QDRQ1
+#/12897551/1657704/2.50/8/3/Integrated Circuit
+DEF TLV9002QDRQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TLV9002QDRQ1" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/tlv9002-q1.pdf?ts=1606492484565&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV9002-Q1" 950 0 50 H I L CNN
+F4 "Operational Amplifiers - Op Amps 2-Channel, 1MHz, RRIO, 1.8V to 5.5V operational amplifier for cost-optimized systems 8-SOIC -40 to 125" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "595-TLV9002QDRQ1" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9002QDRQ1?qs=OTrKUuiFdkaZFErnMHVpZg%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TLV9002QDRQ1" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT1 1 0 0 200 R 50 50 0 0 P
+X IN1- 2 0 -100 200 R 50 50 0 0 P
+X IN1+ 3 0 -200 200 R 50 50 0 0 P
+X V- 4 0 -300 200 R 50 50 0 0 P
+X V+ 8 1100 0 200 L 50 50 0 0 P
+X OUT2 7 1100 -100 200 L 50 50 0 0 P
+X IN2- 6 1100 -200 200 L 50 50 0 0 P
+X IN2+ 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SMCJ120A
+#/977177/1657704/2.50/2/3/TVS Diode (Uni-directional)
+DEF SMCJ120A D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "SMCJ120A" 400 250 50 H V L BNN
+F2 "DIOM7959X262N" 400 150 50 H I L BNN
+F3 "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=37388813-0d6d-4329-969b-1aa8b7614ac1&filename=littelfuse-tvs-diode-smcj-datasheet" 400 50 50 H I L BNN
+F4 "193V Clamp 7.8A Ipp Tvs Diode Surface Mount DO-214AB (SMCJ)" 400 -50 50 H I L BNN "Description"
+F5 "2.62" 400 -150 50 H I L BNN "Height"
+F6 "576-SMCJ120A" 400 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMCJ120A?qs=HR2RnyOI4E512%252BAe8nyr5w%3D%3D" 400 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 400 -450 50 H I L BNN "Manufacturer_Name"
+F9 "SMCJ120A" 400 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EEH-ZC1V680XP
+#/1339169/1657704/2.50/2/2/Capacitor Polarised
+DEF EEH-ZC1V680XP C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEH-ZC1V680XP" 350 150 50 H V L CNN
+F2 "EEHZA1E101XP" 350 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDD0000/ABA0000C1234.pdf" 350 -50 50 H I L CNN
+F4 "" 350 -150 50 H I L CNN "Description"
+F5 "8.3" 350 -250 50 H I L CNN "Height"
+F6 "667-EEH-ZC1V680XP" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/EEH-ZC1V680XP?qs=7UCyOFMWVHa8icQ8FtBUeQ%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "EEH-ZC1V680XP" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SPM6530T-2R2M-HZ
+#/1208535/1657704/2.50/2/2/Inductor (FeSi Core)
+DEF SPM6530T-2R2M-HZ L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "SPM6530T-2R2M-HZ" 650 150 50 H V L CNN
+F2 "SPM6530" 650 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_spm6530-hz_en.pdf" 650 -50 50 H I L CNN
+F4 "Fixed Inductors 2.2uH 20% 17.3mOhms Pwr Indctr AEC-Q200" 650 -150 50 H I L CNN "Description"
+F5 "" 650 -250 50 H I L CNN "Height"
+F6 "810-SPM6530T-2R2M-HZ" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK/SPM6530T-2R2M-HZ?qs=lYGu3FyN48d6HeJ85LXkfw%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "SPM6530T-2R2M-HZ" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+P 2 0 1 6 200 100 600 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BLM21PG121SN1D
+#/408246/1657704/2.50/2/2/Filter
+DEF BLM21PG121SN1D FL 0 30 Y Y 1 F N
+F0 "FL" 650 300 50 H V L CNN
+F1 "BLM21PG121SN1D" 650 200 50 H V L CNN
+F2 "BLM21AG102BH1J" 650 100 50 H I L CNN
+F3 "https://www.murata.com/en-us/products/productdetail?partno=BLM21PG121SN1%23" 650 0 50 H I L CNN
+F4 "BLM21_N1D Series EMI Suppression Filter 120+/-25% at 100MHz 3A @85" 650 -100 50 H I L CNN "Description"
+F5 "1.05" 650 -200 50 H I L CNN "Height"
+F6 "81-BLM21PG121SN1D" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21PG121SN1D?qs=MY6wChARw2zaR3kESBLGTQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BLM21PG121SN1D" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model STTH1002CB-TR
+#/1732197/1657704/2.50/3/2/Diode
+DEF STTH1002CB-TR D 0 30 Y Y 1 F N
+F0 "D" 750 300 50 H V L CNN
+F1 "STTH1002CB-TR" 750 200 50 H V L CNN
+F2 "STTH1002CBTR" 750 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/stth1002c.pdf" 750 0 50 H I L CNN
+F4 "200 V, 10 A dual Ultrafast Diode" 750 -100 50 H I L CNN "Description"
+F5 "2.63" 750 -200 50 H I L CNN "Height"
+F6 "511-STTH1002CB-TR" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STTH1002CB-TR?qs=QxF4U1u29WCadr2TzoK1fA%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "STTH1002CB-TR" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 1 900 -100 200 L 50 50 0 0 P
+X K 2 0 0 200 R 50 50 0 0 P
+X A2 3 900 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model NRVUS220VT3G-GA01
+#/19228292/1657704/2.50/2/2/Diode
+DEF NRVUS220VT3G-GA01 D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "NRVUS220VT3G-GA01" 450 100 50 H V L CNN
+F2 "DIOM5436X247N" 450 0 50 H I L CNN
+F3 "https://www.onsemi.com/download/data-sheet/pdf/MURS220T3-D.PDF" 450 -100 50 H I L CNN
+F4 "Power Rectifier, Ultra-Fast Recovery, 2 A, 200 V" 450 -200 50 H I L CNN "Description"
+F5 "2.47" 450 -300 50 H I L CNN "Height"
+F6 "" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "onsemi" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "NRVUS220VT3G-GA01" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PU6BBH
+#/19966434/1657704/2.50/2/3/Diode
+DEF PU6BBH D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "PU6BBH" 450 100 50 H V L CNN
+F2 "DIOM5436X265N" 450 0 50 H I L CNN
+F3 "https://services.taiwansemi.com/storage/resources/datasheet/PU6BBH%20SERIES_B2109.pdf" 450 -100 50 H I L CNN
+F4 "Rectifiers 25ns, 6A, 100V, Ultra Fast Recovery Rectifier" 450 -200 50 H I L CNN "Description"
+F5 "2.65" 450 -300 50 H I L CNN "Height"
+F6 "" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "Taiwan Semiconductor" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "PU6BBH" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model VBT5202-M3_4W
+#/1314395/1657704/2.50/3/4/Schottky Diode
+DEF VBT5202-M3_4W D 0 30 Y Y 1 F N
+F0 "D" 750 300 50 H V L CNN
+F1 "VBT5202-M3_4W" 750 200 50 H V L CNN
+F2 "VBT5202M34W" 750 100 50 H I L CNN
+F3 "https://www.vishay.com/docs/87700/vt5202-m3.pdf" 750 0 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers 5A 200V Trench Stky Rectifier" 750 -100 50 H I L CNN "Description"
+F5 "4.83" 750 -200 50 H I L CNN "Height"
+F6 "78-VBT5202-M3/4W" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VBT5202-M3-4W?qs=ZTNTdOMgtc3KetqcNX%2FiOw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "VBT5202-M3/4W" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC 1 0 0 200 R 50 50 0 0 N
+X K 2 900 0 200 L 50 50 0 0 P
+X A 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1987054
+#/453628/1657704/2.50/4/2/Connector
+DEF 1987054 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1987054" 650 200 50 H V L CNN
+F2 "1987054" 650 100 50 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/ZFKDS_10-10,00_15,00.pdf" 650 0 50 H I L CNN
+F4 "PCB Terminal Block 1987054" 650 -100 50 H I L CNN "Description"
+F5 "27" 650 -200 50 H I L CNN "Height"
+F6 "651-1987054" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1987054?qs=eiqBpq341KWOBpb0Y4X4sw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Phoenix Contact" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1987054" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IPP110N20N3_G
+#/289623/1657704/2.50/3/4/MOSFET (N-Channel)
+DEF IPP110N20N3_G Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "IPP110N20N3_G" 450 50 50 H V L CNN
+F2 "TO254P457X1003X2115-3P" 450 -50 50 H I L CNN
+F3 "https://www.infineon.com/dgdl/Infineon-IPP_I_110N20N3G_IPB107N20N3G-DS-v02_03-en.pdf?fileId=db3a3043243b5f170124968e7d1f18e7" 450 -150 50 H I L CNN
+F4 "MOSFET N-Channel 200V 88A OptiMOS3 TO220 Infineon IPP110N20N3 G N-channel MOSFET Transistor, 88 A, 200 V, 3-Pin TO-220" 450 -250 50 H I L CNN "Description"
+F5 "4.57" 450 -350 50 H I L CNN "Height"
+F6 "726-IPP110N20N3G" 450 -450 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPP110N20N3-G?qs=nTClRYuuQBpD3R4g85pVvA%3D%3D" 450 -550 50 H I L CNN "Mouser Price/Stock"
+F8 "Infineon" 450 -650 50 H I L CNN "Manufacturer_Name"
+F9 "IPP110N20N3 G" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 400 100 D 50 50 0 0 P
+X ~ 3 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model VT5202-M3_4W
+#/1105019/1657704/2.50/2/0/Schottky Diode
+DEF VT5202-M3_4W D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "VT5202-M3_4W" 500 250 50 H V L CNN
+F2 "TO508P470X1010X1989-2P" 500 150 50 H I L CNN
+F3 "https://www.vishay.com/docs/87700/vt5202-m3.pdf" 500 50 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers 5A 200V Trench Stky Rectifier" 500 -50 50 H I L CNN "Description"
+F5 "4.7" 500 -150 50 H I L CNN "Height"
+F6 "78-VT5202-M3/4W" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/VT5202-M3-4W?qs=qH96uQk6rZpoQAW7QUa3qg%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "VT5202-M3/4W" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,37 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+1EDI3023ASXUMA1 SOP50P1030X265-20M I ANA 7 1 0 0 0
+TIMESTAMP 2025.04.29.15.28.22
+"Mouser Part Number" 726-1EDI3023ASXUMA1
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/1EDI3023ASXUMA1?qs=eP2BKZSCXI7lDN1wWpWgyg%3D%3D
+"Manufacturer_Name" Infineon
+"Manufacturer_Part_Number" 1EDI3023ASXUMA1
+"Description" ISOLATED_HVGD, PG-DSO-20
+"Datasheet Link" https://www.infineon.com/dgdl/Infineon-1EDI3023AS-DataSheet-v01_10-EN.pdf?fileId=5546d4627956d53f01798965e8a90c57
+"Geometry.Height" 2.65mm
+GATE 1 20 0
+1EDI3023ASXUMA1
+1 0 U GND1_1
+2 0 U VCC1
+3 0 U DATA
+4 0 U NFLT
+5 0 U RDY
+6 0 U NRST
+7 0 U EN
+8 0 U INN
+9 0 U INP
+10 0 U GND1_2
+20 0 U VEE2_2
+19 0 U OCPP
+18 0 U OCPN
+17 0 U AIP
+16 0 U GND2
+15 0 U DESAT
+14 0 U VCC2
+13 0 U TOUT
+12 0 U GATE/CLAMP
+11 0 U VEE2_1
+
+*END*
+*REMARK* SamacSys ECAD Model
+16412148/1657704/2.50/20/2/Integrated Circuit

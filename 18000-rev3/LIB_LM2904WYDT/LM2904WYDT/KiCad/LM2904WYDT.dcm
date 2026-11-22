@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM2904WYDT
+D STMicroelectronics LM2904WYDT, Quad Low Power Op Amp, 1.1MHz, 3  30 V, 8-Pin SOP
+K
+F https://datasheet.lcsc.com/szlcsc/STMicroelectronics-LM2904WYDT_C105410.pdf
+$ENDCMP
+#
+#End Doc Library

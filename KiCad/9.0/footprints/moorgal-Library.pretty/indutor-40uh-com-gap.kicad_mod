@@ -1,0 +1,181 @@
+(footprint "indutor-40uh-com-gap"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "inductor")
+	(property "Reference" "I?"
+		(at 0.91 -3.7 180)
+		(layer "F.SilkS")
+		(uuid "a410388a-4261-45ff-b1b5-0333646f89fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0c14e1fc-7747-4be0-bab7-ac75006da8a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6834ddd-e379-4318-a72b-fc3f348aad94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdec95a7-ef85-4efa-aa94-9e799cd6bac5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "30"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2fb23df-61f9-46b5-a34b-9a9ca8ecdfae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a3a0f49-e632-457e-8b95-c7d24a675d38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a002eb6-1b91-43e8-80fd-8e884b4c8b9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "587d19b7-be34-4e39-be90-912eacfc08a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5828f229-c47d-435c-a67f-f2690ef2dd22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 3.75 0)
+		(end 43.75 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "049ce473-3c10-4a4e-8e7a-721d4b4d2d00")
+	)
+	(fp_circle
+		(center 3.75 0)
+		(end 43.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dcfe938f-4182-49bc-99c2-11053badfeea")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "708fc775-63e2-4900-b372-e844da144e72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -12.36 18.04)
+		(size 15 15)
+		(drill 10)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f76a3c6-4054-4277-94bf-11e44c292a06")
+	)
+	(pad "2" thru_hole circle
+		(at -12.36 -23.97)
+		(size 15 15)
+		(drill 10)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e85c8029-4da6-4b44-a785-b712f0262c15")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\tiago\\OneDrive\\Documentos\\KiCad\\9.0\\SamacSys_Parts.3dshapes\\EKXJ201ELL561MM50S.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

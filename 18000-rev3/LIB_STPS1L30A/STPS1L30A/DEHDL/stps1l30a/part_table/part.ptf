@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STPS1L30A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STPS1L30A" (!) = "", "DIOM5226X223M", "Diodes Moulded", "511-STPS1L30A", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STPS1L30A?qs=46HR8ipXVSuHYAtVpcwRVg%3D%3D", "Schottky barrier diode,STPS1L30A SMA STMicroelectronics STPS1L30A, SMT Schottky Diode, 30V 1A, 2-Pin DO-214AC", "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001323.pdf", "2.23 mm"
+END_PART
+
+END.

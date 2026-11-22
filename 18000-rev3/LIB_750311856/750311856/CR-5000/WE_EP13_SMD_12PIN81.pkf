@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "WE_EP13_SMD_12PIN81"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "WE_EP13_SMD_12PIN81")
+        (spec "default")
+    )
+)

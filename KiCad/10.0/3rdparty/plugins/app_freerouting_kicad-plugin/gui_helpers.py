@@ -1,0 +1,116 @@
+# ---------------------------------------------------------------------------
+# gui_helpers.py — GUI utility functions for the KiCad Freerouting plugin
+# ---------------------------------------------------------------------------
+# All wxPython GUI helpers live here: thread-safe invocation, message
+# dialogs, and the shared application instance setup.  Keeping GUI code
+# in a separate module makes it easy to test the rest of the plugin
+# logic without a display.
+# ---------------------------------------------------------------------------
+
+import sys
+try:
+    import wx
+    import wx.aui
+except ImportError:
+    wx = None
+
+# ------------------------------------------------------------------
+# Shared wx.App instance
+# ------------------------------------------------------------------
+# KiCad's Python console uses the "Phoenix" wxPython build.  A single
+# wx.App must exist before any GUI widgets are created.  We create one
+# lazily if KiCad hasn't already done so.
+if wx and "phoenix" in getattr(wx, "PlatformInfo", []):
+    if not wx.GetApp():
+        theApp = wx.App()
+    else:
+        theApp = wx.GetApp()
+else:
+    theApp = None
+
+
+# ------------------------------------------------------------------
+# Thread-safe GUI invocation
+# ------------------------------------------------------------------
+# KiCad's main thread owns the GUI.  Worker threads (e.g. the polling
+# loop that waits for routing completion) must use wx.CallAfter to
+# safely interact with widgets.
+def wx_safe_invoke(function, *args, **kwargs):
+    """Schedule *function* to run on the main GUI thread.
+
+    Use this from background threads to safely update UI elements or
+    close dialogs.  Wraps ``wx.CallAfter`` with safety guards so that calls
+    on destroyed C++ wx objects are cleanly dropped instead of crashing KiCad.
+    """
+    if not wx:
+        function(*args, **kwargs)
+        return
+
+    def _safe_wrapper():
+        target = getattr(function, "__self__", None)
+        if target is not None:
+            try:
+                if hasattr(target, "IsBeingDeleted") and target.IsBeingDeleted():
+                    return
+                if not bool(target):
+                    return
+            except (RuntimeError, TypeError):
+                return
+        try:
+            function(*args, **kwargs)
+        except (RuntimeError, TypeError):
+            # Dropped cleanly if target wx object was destroyed concurrently
+            pass
+
+    wx.CallAfter(_safe_wrapper)
+
+
+
+
+# ------------------------------------------------------------------
+# Dialog helpers
+# ------------------------------------------------------------------
+# Caption used by all plugin message dialogs for consistent branding.
+wx_caption = "KiCad Freerouting Plugin"
+
+
+def wx_show_warning(text):
+    """Display a warning dialog with Yes/No buttons.
+
+    Returns the user's choice (``wx.ID_YES`` or ``wx.ID_NO``).
+    """
+    if not wx:
+        print(f"Warning: {text}", file=sys.stderr)
+        return 0
+
+    style = wx.YES_NO | wx.ICON_WARNING
+    dialog = wx.MessageDialog(None, message=text, caption=wx_caption, style=style)
+    result = dialog.ShowModal()
+    dialog.Destroy()
+    return result
+
+
+def wx_show_error(text):
+    """Display an error dialog with an OK button.  Blocks until dismissed."""
+    if not wx:
+        print(f"Error: {text}", file=sys.stderr)
+        return
+
+    style = wx.OK | wx.ICON_ERROR
+    dialog = wx.MessageDialog(None, message=text, caption=wx_caption, style=style)
+    dialog.ShowModal()
+    dialog.Destroy()
+
+
+def has_pcbnew_api():
+    """Return ``True`` if the required pcbnew SWIG APIs are available.
+
+    Some older KiCad builds (or non-nightly releases) may lack the
+    Specctra DSN/SES import/export functions.  This guard prevents
+    crashes when those functions are missing.
+    """
+    try:
+        import pcbnew
+        return hasattr(pcbnew, "ExportSpecctraDSN") and hasattr(pcbnew, "ImportSpecctraSES")
+    except ImportError:
+        return False

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_180385"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-11-03-12:30:39)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "STPS1L30A")
+)
+
+
+(pinAssign "ECS_180385"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-11-03-12:30:39)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_180385")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "STPS1L30A")
+)
+
+
+(part "STPS1L30A"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-11-03-12:30:39)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "STPS1L30A")
+    (pinAssignRef "ECS_180385")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Schottky barrier diode,STPS1L30A SMA STMicroelectronics STPS1L30A, SMT Schottky Diode, 30V 1A, 2-Pin DO-214AC")
+    (property "Mouser_Part_Number" "511-STPS1L30A")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STPS1L30A?qs=46HR8ipXVSuHYAtVpcwRVg%3D%3D")
+    (property "Manufacturer_Name" "STMicroelectronics")
+    (property "Manufacturer_Part_Number" "STPS1L30A")
+    (property "Datasheet_Link" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001323.pdf")
+    (property "compAreaTopHeight" 2.23)
+)
+
+

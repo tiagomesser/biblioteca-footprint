@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2EDS8265HXUMA2'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "2EDS8265HXUMA2" (!) = "", "SOIC127P1030X265-16M", "Small Outline Packages", "726-2EDS8265HXUMA2", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/2EDS8265HXUMA2?qs=zW32dvEIR3vgSFyUeWwYYw%3D%3D", "Gate Drivers", "https://www.infineon.com/cms/en/product/power/gate-driver-ics/?", "2.65 mm"
+END_PART
+
+END.

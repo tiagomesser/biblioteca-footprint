@@ -1,0 +1,16 @@
+.LM2904WYDT :1 ;STMicroelectronics LM2904WYDT, Quad Low Power Op Amp, 1.1MHz, 3  30 V, 8-Pin SOP
+SOIC127P600X175-8M
+*STM IC
+*NGS
+*PLB 1="OUTPUT A" 2="INVERTING INPUT A" 3="NON-INVERTING INPUT A" 4="VCC-" 5="NON-INVERTING INPUT B" 6="INVERTING INPUT B" 7="OUTPUT B" 8="VCC+"
+*MXP 8
+*DFN LM2904WYDT
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (LM2904WYDT)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/STMicroelectronics-LM2904WYDT_C105410.pdf)
+~!Height (1.75mm)
+~!3D_Model (LM2904WYDT)
+LM2904WYDT
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

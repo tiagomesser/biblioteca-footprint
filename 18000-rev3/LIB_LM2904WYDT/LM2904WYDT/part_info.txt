@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=LM2904WYDT
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2022-02-19 05:20:28
+Downloaded=2025-04-30 03:48:10
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=RECOM Power
+PartNumber=RS6-2415D
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=7
+Version=8.1
+Released=2017-03-08 01:23:30
+Downloaded=2025-07-12 15:11:23
+3D=Y

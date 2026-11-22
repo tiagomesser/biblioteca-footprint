@@ -1,0 +1,71 @@
+(footprint "DO-218AB_SM8S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DO-218AB (SM8S series). Pads per BORN SM8S datasheet p.4 (X=10, Y=9, Z=3.5, X1=2.7, Y1=2 mm). Body outline approximate. Pad 1 = cathode (heatsink), pad 2 = anode (tab).")
+	(tags "DO-218AB SM8S TVS")
+	(property "Reference" "REF**"
+		(at 0 -6.8 0)
+		(layer "F.SilkS")
+		(uuid "cd9e3e0b-dbb9-4b27-ad67-c3070f8cbff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DO-218AB_SM8S"
+		(at 0 6.8 0)
+		(layer "F.Fab")
+		(uuid "13eb666d-c2d4-4653-8749-2ce2356fea1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b19fb022-17f8-4023-806e-dce042787eab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45bfa302-2c18-4367-b69b-fd6a74b96757")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line (start -7.75 -5.25) (end -7.75 5.25) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "74697e9c-5ecf-49c0-a0b3-a198c693709f"))
+	(fp_rect (start -7.5 -5) (end 6 5) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab") (uuid "e6410fb0-c834-46e3-8e25-3bca98bad06f"))
+	(fp_rect (start 6 -1.35) (end 8.1 1.35) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab") (uuid "e7393fd2-aa26-4b66-88b7-a323559f8d79"))
+	(fp_rect (start -7.85 -5.5) (end 8.35 5.5) (stroke (width 0.05) (type solid)) (fill no) (layer "F.CrtYd") (uuid "c3db706a-43d1-448f-9ade-7af5c572f681"))
+	(pad "1" smd rect
+		(at -2.75 0)
+		(size 9 10)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6491bd50-b445-4bca-9e4e-6079f5e793b6")
+	)
+	(pad "2" smd rect
+		(at 6.25 0)
+		(size 2 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bbf439e7-c8e8-42dc-a518-7f3036229917")
+	)
+)

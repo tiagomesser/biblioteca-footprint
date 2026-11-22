@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "1EDI3023ASXUMA1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-06-18-04:03:49)
+    (mountForm default
+        (footprintRef "SOP50P1030X265-20M")
+        (spec "System")
+    )
+)

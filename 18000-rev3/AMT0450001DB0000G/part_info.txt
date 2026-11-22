@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=AMT0450001DB0000G
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2024-06-04 06:13:31
+Downloaded=2025-05-13 15:13:09
+3D=Y

@@ -1,0 +1,16 @@
+.SMBJ18CA :1 ;Littelfuse SMBJ18CA Bi-Directional TVS Diode, 600W peak, 2-Pin DO-214AA
+DIOM5436X261N
+*STM D
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SMBJ18CA
+~!Mouser Part Number (576-SMBJ18CA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ18CA?qs=HR2RnyOI4E5LXIGVih8ojg%3D%3D)
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (SMBJ18CA)
+~!Link Datasheet (http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf)
+~!Height (2.61mm)
+~!3D_Model (SMBJ18CA)
+SMBJ18CA
+1.1!U 2.1!U 

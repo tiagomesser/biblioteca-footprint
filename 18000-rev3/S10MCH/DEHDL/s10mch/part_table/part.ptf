@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'S10MCH'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Taiwan Semiconductor", "S10MCH" (!) = "", "DIOM7959X262N", "Diodes Moulded", "821-S10MCH", "https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/S10MCH?qs=lc2O%252BfHJPVafaPzwxUgUiQ%3D%3D", "Diode 1000 V 10A Surface Mount DO-214AB (SMC)", "https://services.taiwansemi.com/storage/resources/datasheet/S10GCH%20SERIES_A2102.pdf", "2.62 mm"
+END_PART
+
+END.

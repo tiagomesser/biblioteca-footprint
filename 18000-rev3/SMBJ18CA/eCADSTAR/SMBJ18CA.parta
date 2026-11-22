@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_443939"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-08-19-07:16:08)
+    (utime 2024-02-01-12:34:11)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SMBJ18CA")
+)
+
+
+(pinAssign "ECS_443939"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-08-19-07:16:08)
+    (utime 2024-02-01-12:34:11)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_443939")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SMBJ18CA")
+)
+
+
+(part "SMBJ18CA"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-08-19-07:16:08)
+    (utime 2024-02-01-12:34:11)
+    (packageRef "SMBJ18CA")
+    (pinAssignRef "ECS_443939")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Littelfuse SMBJ18CA Bi-Directional TVS Diode, 600W peak, 2-Pin DO-214AA")
+    (property "Mouser_Part_Number" "576-SMBJ18CA")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ18CA?qs=HR2RnyOI4E5LXIGVih8ojg%3D%3D")
+    (property "Manufacturer_Name" "LITTELFUSE")
+    (property "Manufacturer_Part_Number" "SMBJ18CA")
+    (property "Datasheet_Link" "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf")
+    (property "compAreaTopHeight" 2.61)
+)
+
+

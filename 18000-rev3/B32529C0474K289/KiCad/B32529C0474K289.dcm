@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B32529C0474K289
+D Metallized Polyester Capacitors (MKT), 0.47uF, 63V DC, 3.5mm(W) x 8mm(H) x 7.3mm(L)
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf
+$ENDCMP
+#
+#End Doc Library

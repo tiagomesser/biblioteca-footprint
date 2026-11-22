@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "EKXJ201ELL561MM50S"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-01-09-12:14:32)
+    (mountForm default
+        (footprintRef "CAPPRD750W80D1800H5150")
+        (spec "System")
+    )
+)

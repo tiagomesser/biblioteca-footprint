@@ -1,0 +1,9 @@
+Manufacturer=Taiwan Semiconductor
+PartNumber=S10MCH
+PartCategory=Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=1.1
+Released=2024-05-21 14:41:31
+Downloaded=2025-05-13 04:23:52
+3D=Y

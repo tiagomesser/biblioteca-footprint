@@ -1,0 +1,8 @@
+{
+  "kicad_cli": "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+  "ipc_socket_path": "",
+  "jlcpcb_db_path": "",
+  "log_level": "info",
+  "transport": "stdio",
+  "native_specctra_bridge": false
+}

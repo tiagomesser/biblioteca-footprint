@@ -1,0 +1,459 @@
+(footprint "CONN-TH_4P-100A-ALIEXPRESS-M4-PCB-147D"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "t44007_2"
+		(at 2.525 -14.93 180)
+		(layer "F.SilkS")
+		(uuid "3277aec0-8613-4aab-a618-18d3514dae0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C481455"
+		(at 41.37 13.875 0)
+		(layer "F.Fab")
+		(uuid "0ec09f53-b98e-4b4b-b786-cd7fea492ecb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588935532709208064-C481455.pdf?response-content-disposition=attachment%3B%20filename%3DC481455.pdf%3B%20filename%2A%3DUTF-8%27%27C481455.pdf&x-oss-date=20260818T174922Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nUAMnxl4hl4JKoQxLrhlQmZrZF2bzxrzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qZ9DmVEo557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWgpvRut606HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIlxlyO6KWD5sagAFvaaJiNpFMcftf6diyyPOLfKAxTxxCSm2GRWeaQeuGlJmscwsZaZPsw0eG7MEy9vndkMIpPdgMquGffQM4t2K3WQVkmC3x4Mzit6ovj4vVpoaglfeYB4zv%2FyN29aDTejI%2BvQUDQl0O%2BuodG7vg3XEY5vUxANaJkc9ijTWnYEx%2BGCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZaKsEzWDWPCA4ZbTsj9i6yZM%2F20260818%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=136b8a9450a18757e4d0dbe7961313330f1ab9ce1b4203f3ea86c8ef62079d50"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59e348d8-4ffd-4013-bb43-7fb125c0ebb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "1 10.7mm 4 5mm 60A Brass M4 Tin Top 插件 PCB Welding Terminal ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a4fd1e2-1459-4c1a-9e40-24c874ac0666")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86334387-bd82-4025-bbfa-a6df1f3ef377")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "319655b5-1ca3-478c-8e5d-f722019aa53b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4d5e513-f616-4f17-aaa2-82f5ec2cb415")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f099f45b-c199-4749-b0f0-b3ce8bf43dcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92574284-7431-428c-9caa-535c7f99b9b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04ce8427-e3b5-46ed-909b-ea08b4e1776a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part #" "C481455"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b1633a3-a2ba-44f2-8455-0233cbf80ef6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rotation Offset" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13dabcb4-9469-4034-a4c3-6537b408d34d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f88ee50-e622-4b46-a970-cf8ce8d6f25a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field12" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fb716c0-de58-413a-ad15-e31f6dc51ae5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC PART#" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8fd62a4-bfcd-45b5-bccf-a58104138704")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB Rotation Offset " ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10e04fc7-021f-4fe0-865c-ba4fabafd0bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01d789f7-23a9-4053-94a3-f305dd41ada8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "917b62c2-31e3-4ec0-95b4-c56cd3d5caac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b875948-d982-481f-a208-8f4398389a9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81dfd39a-5b50-4e2c-8aec-f18a5cb9c343")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "inversor-half-bridge.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.56 5.59)
+		(end -6.56 -7.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac6fa747-46dd-405b-a515-2880c60793a0")
+	)
+	(fp_line
+		(start -4.93 -7.24)
+		(end -4.27 -7.24)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e53bbb3-93a0-4c9a-8efc-549555d0cc20")
+	)
+	(fp_line
+		(start -4.23 7.55)
+		(end -4.83 7.55)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3b1dcca-310d-4b40-84f6-246bb4faebb4")
+	)
+	(fp_line
+		(start -0.83 -7.3)
+		(end 0.83 -7.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a70aa85-0109-405c-a016-235f693942a9")
+	)
+	(fp_line
+		(start 0.77 7.59)
+		(end -0.77 7.59)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d183e8bd-37eb-4002-9298-b57d3bbe8b55")
+	)
+	(fp_line
+		(start 4.17 -7.36)
+		(end 4.7 -7.36)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "001f203e-032f-44d3-99b3-37ab483d12b9")
+	)
+	(fp_line
+		(start 4.7 7.61)
+		(end 4.23 7.61)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c165ddbb-a143-4c3e-8a51-a06a6ab76c30")
+	)
+	(fp_line
+		(start 6.22 -5.72)
+		(end 6.22 5.59)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddd0ebe8-cc2b-4851-b4d6-13787b49688e")
+	)
+	(fp_circle
+		(center -5.48 -6.71)
+		(end -5.51 -6.65)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f34c4e61-d8a2-43da-88b0-c20b59708f59")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.06 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4fc5fd50-ef25-4c68-a57e-79102b2e7f61")
+	)
+	(fp_line
+		(start -6.07 -7.02)
+		(end 5.98 -7.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a962c80e-a71a-45b9-b90c-11e4256648ad")
+	)
+	(fp_line
+		(start -6.07 7.31)
+		(end -6.07 -7.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c97e7a0b-47c1-43d5-849b-731ae836b9ef")
+	)
+	(fp_line
+		(start 5.98 -7.01)
+		(end 5.98 7.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "700753aa-13ae-4ffd-a4a3-8c0ea8ee1c65")
+	)
+	(fp_line
+		(start 5.98 7.32)
+		(end -6.07 7.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11961b69-dcd2-406b-b35b-f43c918cf041")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0a7f8216-4ee6-4882-850d-ed3817193d69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -3.25 -5.15)
+		(size 5 3)
+		(drill oval 3.5 1.500022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "766d09c3-4490-46fc-ac7d-80e488992fc8")
+	)
+	(pad "2" thru_hole oval
+		(at 3.25 -5.15)
+		(size 5 3)
+		(drill oval 3.5 1.500022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4bf39729-2830-4b06-9c2b-40963cdcf696")
+	)
+	(pad "3" thru_hole oval
+		(at 3.15 5.15)
+		(size 5 3)
+		(drill oval 3.5 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a70b0d25-a706-435b-956e-ef582c926269")
+	)
+	(pad "4" thru_hole oval
+		(at -3.25 5.15)
+		(size 5 3)
+		(drill oval 3.5 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ca785cc-4434-403d-b890-62114a0d17aa")
+	)
+	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_4P-L11.1-W9.2-P5.00-T44007.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
+)

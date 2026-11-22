@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRF200P222
+D MOSFET IFX OPTIMOS
+K
+F https://componentsearchengine.com/Datasheets/1/IRF200P222.pdf
+$ENDCMP
+#
+#End Doc Library

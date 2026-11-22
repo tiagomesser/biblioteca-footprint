@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM2904WYDT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "LM2904WYDT" (!) = "", "SOIC127P600X175-8M", "Small Outline Packages", "", "", "STMicroelectronics LM2904WYDT, Quad Low Power Op Amp, 1.1MHz, 3  30 V, 8-Pin SOP", "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-LM2904WYDT_C105410.pdf", "1.75 mm"
+END_PART
+
+END.

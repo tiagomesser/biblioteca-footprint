@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_16679786"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-09-04-09:24:14)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "PMEG100V060ELPEZ")
+)
+
+
+(pinAssign "ECS_16679786"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-09-04-09:24:14)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "A_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A_2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "K") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_16679786")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "PMEG100V060ELPEZ")
+)
+
+
+(part "PMEG100V060ELPEZ"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-09-04-09:24:14)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "PMEG100V060ELPEZ")
+    (pinAssignRef "ECS_16679786")
+    (interface
+        (port "1" (symbPinId 1) (portName "A_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A_2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "K") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "PMEG100V060ELPE - 100 V, 6 A low leakage current Schottky barrier rectifier@en-us")
+    (property "Mouser_Part_Number" "771-PMEG100V060ELPEZ")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMEG100V060ELPEZ?qs=vvQtp7zwQdNoUw8uBTVGpw%3D%3D")
+    (property "Manufacturer_Name" "Nexperia")
+    (property "Manufacturer_Part_Number" "PMEG100V060ELPEZ")
+    (property "Datasheet_Link" "https://assets.nexperia.com/documents/data-sheet/PMEG100V060ELPE.pdf")
+    (property "compAreaTopHeight" 0.99)
+)
+
+

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PMEG100V060ELPEZ"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PMEG100V060ELPEZ")
+        (spec "default")
+    )
+)

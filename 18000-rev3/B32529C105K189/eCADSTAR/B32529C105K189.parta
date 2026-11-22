@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_12725308"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-05-13-03:22:57)
+    (utime 2023-05-13-06:25:31)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "B32529C105K189")
+)
+
+
+(pinAssign "ECS_12725308"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-05-13-03:22:57)
+    (utime 2023-05-13-06:25:31)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_12725308")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "B32529C105K189")
+)
+
+
+(part "B32529C105K189"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-05-13-03:22:57)
+    (utime 2023-05-13-06:25:31)
+    (packageRef "B32529C105K189")
+    (pinAssignRef "ECS_12725308")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Film Capacitors 1.0uF 63V 10% Tape & Reel")
+    (property "Mouser_Part_Number" "871-B32529C105K189")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32529C105K189?qs=Gus83tocK7upUbBnfWUlPQ%3D%3D")
+    (property "Manufacturer_Name" "TDK")
+    (property "Manufacturer_Part_Number" "B32529C105K189")
+    (property "Datasheet_Link" "https://en.tdk.eu/inf/20/20/db/fc_2009/B32520_529.pdf")
+    (property "compAreaTopHeight" 9.5)
+)
+
+

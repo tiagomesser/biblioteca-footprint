@@ -1,0 +1,370 @@
+(footprint "DCWN06"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RS6")
+	(tags "Power Supply")
+	(property "Reference" "PS2"
+		(at 9.59 -5.23 0)
+		(layer "F.SilkS")
+		(uuid "9bd985af-adce-4b5f-a982-7d3c16319b97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "URB_S-6WR3"
+		(at 8.445 1.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "11738095-199a-4544-aa4d-f34c98ac192c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.recom-power.com/pdf/Econoline/RS6.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81d69059-0e7c-438f-b993-85a6415a00a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Recom RS6 Through Hole 6W, Vout +/-15V dc Isolated DC-DC Converter, Vin 4.5  9 V dc"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0ccb0ee-b502-4ecb-b372-0d4558eb8916")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "11.6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a72a932-e735-46c6-9b32-47ec5c16e786")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "919-RS6-2415D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9a642f1-be8d-46ab-b3b6-5b34bbb187e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-2415D?qs=FLBwGrBR9%252B2lkkKHhWDM6A%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf6e1434-dad0-4b39-81e2-01751c100efe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "RECOM Power"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dd3fbd9-a91e-4ea7-9b3c-49fb7fbb171d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "RS6-2415D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b553c93-8511-4d00-9b50-61cadb4538c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 -2.5)
+		(end 27.3 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c77f1ea-58df-4819-9961-6223ecddd830")
+	)
+	(fp_line
+		(start -4.5 17.8)
+		(end -4.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ccf9a90-8efe-448c-8d16-6e060c4bb209")
+	)
+	(fp_line
+		(start -2.7 -0.08)
+		(end -2.7 -0.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f42d0d0-8fbe-496c-8253-367192f21dc4")
+	)
+	(fp_line
+		(start -2.7 0.12)
+		(end -2.7 0.12)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce48ff40-97b2-4b4c-97a9-2c6d3bcb17e0")
+	)
+	(fp_line
+		(start 27.3 -2.5)
+		(end 27.3 17.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c02709bc-c720-4cf7-8b8d-64710b76cec2")
+	)
+	(fp_line
+		(start 27.3 17.8)
+		(end -4.5 17.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efa221b3-43aa-45de-9277-7978bc10811a")
+	)
+	(fp_arc
+		(start -2.7 -0.08)
+		(mid -2.6 0.02)
+		(end -2.7 0.12)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f48e939-90cf-479d-998c-d44306ec2d2c")
+	)
+	(fp_arc
+		(start -2.7 0.12)
+		(mid -2.8 0.02)
+		(end -2.7 -0.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ceddf6eb-effc-4ae4-a924-b9a9565df11d")
+	)
+	(fp_line
+		(start -5.54 -3.49)
+		(end 28.1 -3.49)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc57e45e-7f5c-4020-aeae-ced24ff0d32d")
+	)
+	(fp_line
+		(start -5.54 18.59)
+		(end -5.54 -3.49)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b280a289-08d2-4948-bdb6-fbe7e823d0f1")
+	)
+	(fp_line
+		(start 28.1 -3.49)
+		(end 28.1 18.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e552e5a0-4bf7-41f7-8607-42c410ec8e09")
+	)
+	(fp_line
+		(start 28.1 18.59)
+		(end -5.54 18.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7729e029-a1d3-4fd1-9faa-e48963d1f4d5")
+	)
+	(fp_line
+		(start -4.5 -2.5)
+		(end 27.34 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dbf0892a-289d-4f3e-b7d4-03c025bcba25")
+	)
+	(fp_line
+		(start -4.5 17.74)
+		(end -4.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76d98c33-0e21-45ca-b421-304390c2b107")
+	)
+	(fp_line
+		(start 27.3 17.78)
+		(end -4.46 17.74)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1fbfff81-87de-499b-9ac6-edfbddc950b0")
+	)
+	(fp_line
+		(start 27.34 -2.5)
+		(end 27.3 17.78)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "270801e3-3fe7-4221-bee2-013f1192e896")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 8.445 1.4 0)
+		(layer "F.Fab")
+		(uuid "56b16fa1-5dc0-41c0-97a2-d9353c0a33a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96d2d3cc-d3ab-4098-ab8c-fd18740e2a70")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fb91699a-6723-4a9c-9b52-67a108eb4bc2")
+	)
+	(pad "9" thru_hole circle
+		(at 17.78 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aec12613-ed18-4e6a-9c9a-e1b1efb548fc")
+	)
+	(pad "11" thru_hole circle
+		(at 22.86 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42946d2f-4c77-4413-8160-eb985b1a05fd")
+	)
+	(pad "14" thru_hole circle
+		(at 22.86 15.24)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "40e7e9e7-8097-49b1-a9a5-005fc03b547a")
+	)
+	(pad "16" thru_hole circle
+		(at 17.78 15.24)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46d43cb8-5a2a-4247-81d0-0c8d04800a23")
+	)
+	(pad "22" thru_hole circle
+		(at 2.54 15.24)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7004583-a507-49ca-a09e-08994e75933b")
+	)
+	(pad "23" thru_hole circle
+		(at 0 15.24)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "972d6749-7e56-47b3-955a-c6557d289f54")
+	)
+	(embedded_fonts no)
+	(model "RS6-2415D.stp"
+		(offset
+			(xyz 8.899999485 -1.399999955 -0.09999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

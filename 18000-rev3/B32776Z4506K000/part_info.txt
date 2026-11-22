@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=B32776Z4506K000
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=4
+Version=3.4
+Released=2021-10-12 09:24:16
+Downloaded=2025-07-17 02:01:52
+3D=Y

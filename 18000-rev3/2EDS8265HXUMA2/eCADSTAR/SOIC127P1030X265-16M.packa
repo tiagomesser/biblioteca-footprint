@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "2EDS8265HXUMA2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-11-30-19:47:11)
+    (mountForm default
+        (footprintRef "SOIC127P1030X265-16M")
+        (spec "System")
+    )
+)

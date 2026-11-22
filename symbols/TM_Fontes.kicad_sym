@@ -447,7 +447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "Em avaliação"
+		(property "Status" "Produção"
 			(at 0 0 0)
 			(effects
 				(font
@@ -706,7 +706,7 @@
 				(justify left top)
 			)
 		)
-		(property "Status" "Em avaliação"
+		(property "Status" "Produção"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1173,7 +1173,7 @@
 				)
 			)
 		)
-		(property "Status" "Em avaliação"
+		(property "Status" "Produção"
 			(at 0 0 0)
 			(effects
 				(font

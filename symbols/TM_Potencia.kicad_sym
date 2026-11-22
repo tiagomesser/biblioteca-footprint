@@ -12,7 +12,7 @@
     (property "Footprint" "TM_Potencia:SOD2512X110N" (at 11.43 -97.46 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Status" "Em avaliação"
+    (property "Status" "Produção"
     	(at 0 0 0)
     	(effects
     		(font
@@ -832,7 +832,7 @@
     (property "Footprint" "TM_Potencia:SOD2512X110N_MM3Z10VST1G" (at 10.16 -93.65 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Status" "Em avaliação"
+    (property "Status" "Produção"
     	(at 0 0 0)
     	(effects
     		(font
@@ -931,7 +931,7 @@
     (property "Footprint" "TM_Potencia:DIOM5436X244N" (at 11.43 -97.46 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Status" "Em avaliação"
+    (property "Status" "Produção"
     	(at 0 0 0)
     	(effects
     		(font
@@ -2635,7 +2635,7 @@
     (property "Footprint" "TM_Potencia:DIOM5436X261N" (at 12.7 -93.65 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Status" "Em avaliação"
+    (property "Status" "Produção"
     	(at 0 0 0)
     	(effects
     		(font

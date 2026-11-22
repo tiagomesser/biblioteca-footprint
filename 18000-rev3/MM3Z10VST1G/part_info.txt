@@ -1,9 +1,0 @@
-Manufacturer=onsemi
-PartNumber=MM3Z10VST1G
-PartCategory=Zener Diode
-PackageCategory=Small Outline Diode
-PinCount=2
-Version=2.2
-Released=2018-08-30 22:10:58
-Downloaded=2025-05-16 02:26:48
-3D=Y

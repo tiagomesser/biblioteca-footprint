@@ -1,0 +1,1768 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "1098174"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 16.51 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "1098174"
+			(at 16.51 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Conectores:1098174"
+			(at 16.51 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-pc/products/pcb-terminal-block-lpta-6-1-75-1098174"
+			(at 16.51 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Pluggable Terminal Blocks LPTA 6/ 1-7,5"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "30.16"
+			(at 16.51 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "651-1098174"
+			(at 16.51 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1098174?qs=t7xnP681wgWgt4Osz%2F40Vg%3D%3D"
+			(at 16.51 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 16.51 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1098174"
+			(at 16.51 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "1098174_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 15.24 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "1987054"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 16.51 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "1987054"
+			(at 16.51 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Conectores:1987054"
+			(at 16.51 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/ZFKDS_10-10,00_15,00.pdf"
+			(at 16.51 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "PCB Terminal Block 1987054"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "27"
+			(at 16.51 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "651-1987054"
+			(at 16.51 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1987054?qs=eiqBpq341KWOBpb0Y4X4sw%3D%3D"
+			(at 16.51 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 16.51 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1987054"
+			(at 16.51 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "1987054_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 15.24 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -2.54 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "2606-1101" (in_bom yes) (on_board yes)
+    (property "Reference" "J" (at 21.59 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "2606-1101" (at 21.59 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Conectores:26061101" (at 21.59 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://www.wago.com/2606-1101" (at 21.59 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "PCB terminal block; lever; 6 mm; Pin spacing 7.5 mm; 1-pole; Push-in CAGE CLAMP" (at 21.59 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "24" (at 21.59 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Wago" (at 21.59 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "2606-1101" (at 21.59 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "" (at 21.59 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "" (at 21.59 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Arrow Part Number" "2606-1101" (at 21.59 -894.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/2606-1101/wago-kontakttechnik-gmbh?utm_currency=USD&region=nac" (at 21.59 -994.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (rectangle
+      (start 5.08 2.54)
+      (end 20.32 -2.54)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "1.1" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 25.4 0 180) (length 5.08)
+      (name "1.2" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "43045-0800"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 16.51 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "43045-0800"
+			(at 16.51 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Conectores:43045-08_00,01,02,10_"
+			(at 16.51 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf"
+			(at 16.51 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Dual Row, 8 Circuits, with Snap-in Plastic Peg PCB Lock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.77"
+			(at 16.51 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "538-43045-0800"
+			(at 16.51 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43045-0800?qs=MGlPTwjtJ4Z70Z3DbkGxKw%3D%3D"
+			(at 16.51 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 16.51 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43045-0800"
+			(at 16.51 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "43045-0800_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 15.24 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -7.62 180)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -5.08 180)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -2.54 180)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 5.08)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "502352-0700"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 19.05 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "502352-0700"
+			(at 19.05 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Conectores:5023520700"
+			(at 19.05 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/5023520700_sd.pdf"
+			(at 19.05 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "DuraClik Wire-to-Board Header, Single Row, Right-Angle, 7 Circuits, Tin (Sn) Plating, Natural"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6.6"
+			(at 19.05 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "538-502352-0700"
+			(at 19.05 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/502352-0700?qs=yd8XiKYcH9k3FzXAwcvEAg%3D%3D"
+			(at 19.05 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 19.05 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "502352-0700"
+			(at 19.05 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "502352-0700_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 17.78 -17.78)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 22.86 0 180)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -2.54 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -5.08 180)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -7.62 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -10.16 180)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -12.7 180)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -15.24 180)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "MP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "MP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "502352-0800"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 19.05 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "502352-0800"
+			(at 19.05 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Conectores:5023520800"
+			(at 19.05 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/502352-0800.pdf"
+			(at 19.05 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Molex DURACLIK 502352, 2mm Pitch, 8 Way, 1 Row, Right Angle PCB Header, Surface Mount"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6.6"
+			(at 19.05 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "538-502352-0800"
+			(at 19.05 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/502352-0800?qs=%2FbwszJjB8%2FAe9HJIMS2XAQ%3D%3D"
+			(at 19.05 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 19.05 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "502352-0800"
+			(at 19.05 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "502352-0800_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 17.78 -20.32)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 22.86 0 180)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -2.54 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -5.08 180)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -7.62 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -10.16 180)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -12.7 180)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -15.24 180)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -17.78 180)
+				(length 5.08)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "MP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "MP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "AMT0450001DB0000G" (in_bom yes) (on_board yes)
+    (property "Reference" "J" (at 16.51 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "AMT0450001DB0000G" (at 16.51 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Conectores:AMT0450001DB0000G" (at 16.51 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://www.anytek.com.cn/Upload/AMT45001DB-352489b0842f431da6f1e883ac379f05.pdf" (at 16.51 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "Terminals Current (A) : 70AScrew : M5Torque : 18 lbf.in BrassTerminal Part+Steel Nut (plating : matte tin)Pin out :  4PINMount Type : DIP" (at 16.51 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "10.2" (at 16.51 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "523-AMT0450001DB000G" (at 16.51 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AMT0450001DB0000G?qs=ST9lo4GX8V0z1AU50%2FHW9Q%3D%3D" (at 16.51 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Amphenol" (at 16.51 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "AMT0450001DB0000G" (at 16.51 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (rectangle
+      (start 5.08 2.54)
+      (end 15.24 -5.08)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "1" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 20.32 -2.54 180) (length 5.08)
+      (name "2" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 20.32 0 180) (length 5.08)
+      (name "3" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "4" (effects (font (size 1.27 1.27))))
+      (number "4" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "CRJ049-1-TH" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -7.62 5.842 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "CRJ049-1-TH" (id 1) (at -7.62 -8.382 0)
+      (effects (font (size 1.27 1.27)) (justify top left))
+    )
+    (property "Footprint" "TM_Conectores:CUI_CRJ049-1-TH" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "MF" "Same Sky" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "11.75 mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/CRJ049-1-TH/Same+Sky/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.0" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/CRJ049-1-TH/Same+Sky/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "CRJ049-1-TH" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6363013&manufacturer=Same Sky&part_name=CRJ049-1-TH&search_term=rj11 6p2c shielded" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            6P2C, Single Port, Horizontal, Shielded, No LED, Through Hole, RJ11 Modular Connector\n                        \n" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "CUI Devices" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "CRJ049-1-TH_0_0"
+      (rectangle (start -7.62 -7.62) (end 7.62 5.08)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 2.54 0) (length 5.08)
+        (name "1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08) hide
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+	(symbol "T44007_C481455"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "CN" (at 0 8.35 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "T44007_C481455" (at 0 -8.35 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "TM_Conectores:T44007_C481455" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309201639_XFCN-T44007_C481455.pdf" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 10.7mm 4 5mm 60A Brass M4 Tin Top 插件 PCB Welding Terminal ROHS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C481455 CONN-TH_4P-L11.1-W9.2-P5.00-T44007 T44007 XFCN" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C481455" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "XFCN" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part" "T44007" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "T44007_C481455_0_1"
+      (polyline
+        (pts
+          (xy 2.032 -6.35)
+          (xy 2.13106 -6.340239)
+          (xy 2.226403 -6.311331)
+          (xy 2.31423 -6.264387)
+          (xy 2.39121 -6.20121)
+          (xy 2.454387 -6.12423)
+          (xy 2.501331 -6.036403)
+          (xy 2.530239 -5.94106)
+          (xy 2.54 -5.842)
+          (xy 2.530239 5.94106)
+          (xy 2.501331 6.036403)
+          (xy 2.454387 6.12423)
+          (xy 2.39121 6.20121)
+          (xy 2.31423 6.264387)
+          (xy 2.226403 6.311331)
+          (xy 2.13106 6.340239)
+          (xy 2.032 6.35)
+          (xy -2.13106 6.340239)
+          (xy -2.226403 6.311331)
+          (xy -2.31423 6.264387)
+          (xy -2.39121 6.20121)
+          (xy -2.454387 6.12423)
+          (xy -2.501331 6.036403)
+          (xy -2.530239 5.94106)
+          (xy -2.54 5.842)
+          (xy -2.530239 -5.94106)
+          (xy -2.501331 -6.036403)
+          (xy -2.454387 -6.12423)
+          (xy -2.39121 -6.20121)
+          (xy -2.31423 -6.264387)
+          (xy -2.226403 -6.311331)
+          (xy -2.13106 -6.340239)
+          (xy -2.032 -6.35)
+          (xy 2.032 -6.35)
+        )
+        (stroke (width 0.254) (type solid))
+        (fill (type background))
+      )
+      (circle (center -1.27 5.08) (radius 0.381)
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (pin unspecified line (at -5.08 3.81 0) (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -5.08 1.27 0) (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -5.08 -1.27 0) (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -5.08 -3.81 0) (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+	(symbol "T66145145-1500"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "CN" (at 0 7.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "T66145145-1500" (at 0 -7.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "TM_Conectores:T66145145-1500" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312251759_XFCN-T66145145-1500_C19724526.pdf" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 100A 15mm 6 6.25mm M6 Plug-in type Tin Top 插件 PCB Welding Terminal ROHS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C19724526 CONN-TH_L14.5-W14.5_T66145145-1500 T66145145-1500 XFCN" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C19724526" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "XFCN" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part" "T66145145-1500" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "T66145145-1500_0_1"
+      (polyline
+        (pts
+          (xy 3.302 -5.08)
+          (xy 3.40106 -5.070239)
+          (xy 3.496403 -5.041331)
+          (xy 3.58423 -4.994387)
+          (xy 3.66121 -4.93121)
+          (xy 3.724387 -4.85423)
+          (xy 3.771331 -4.766403)
+          (xy 3.800239 -4.67106)
+          (xy 3.81 -4.572)
+          (xy 3.800239 4.67106)
+          (xy 3.771331 4.766403)
+          (xy 3.724387 4.85423)
+          (xy 3.66121 4.93121)
+          (xy 3.58423 4.994387)
+          (xy 3.496403 5.041331)
+          (xy 3.40106 5.070239)
+          (xy 3.302 5.08)
+          (xy -3.40106 5.070239)
+          (xy -3.496403 5.041331)
+          (xy -3.58423 4.994387)
+          (xy -3.66121 4.93121)
+          (xy -3.724387 4.85423)
+          (xy -3.771331 4.766403)
+          (xy -3.800239 4.67106)
+          (xy -3.81 4.572)
+          (xy -3.800239 -4.67106)
+          (xy -3.771331 -4.766403)
+          (xy -3.724387 -4.85423)
+          (xy -3.66121 -4.93121)
+          (xy -3.58423 -4.994387)
+          (xy -3.496403 -5.041331)
+          (xy -3.40106 -5.070239)
+          (xy -3.302 -5.08)
+          (xy 3.302 -5.08)
+        )
+        (stroke (width 0.254) (type solid))
+        (fill (type background))
+      )
+      (circle (center -2.54 3.81) (radius 0.381)
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (pin unspecified line (at -6.35 2.54 0) (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -6.35 0 0) (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -6.35 -2.54 0) (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 6.35 -2.54 180) (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 6.35 0 180) (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 6.35 2.54 180) (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

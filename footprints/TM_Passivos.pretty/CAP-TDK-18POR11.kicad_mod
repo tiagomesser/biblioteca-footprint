@@ -1,0 +1,237 @@
+(footprint "CAP-TDK-18POR11"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "B32652_(18_x_11)")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0.23 -2.21 0)
+		(layer "F.SilkS")
+		(uuid "e191df3e-a549-40d1-ba58-2c81d37b3ad6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "B32652_(18_x_11)"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ff409465-ddc6-480a-a16e-cacb7334129c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d41d13f-f971-4b6e-b70c-4c30cedce6e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bb2151f-dbb9-4997-ac48-23c236ddccf8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 -5.5)
+		(end 16.5 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9567acdf-655a-406a-bf09-4b05809879f7")
+	)
+	(fp_line
+		(start -1.5 5.5)
+		(end -1.5 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ea3d433-c937-4635-b80b-9afd3b346027")
+	)
+	(fp_line
+		(start 16.5 -5.5)
+		(end 16.5 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "850b3c8b-ba9d-485b-9705-4d88586156cb")
+	)
+	(fp_line
+		(start 16.5 5.5)
+		(end -1.5 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c75d394e-cdcf-43c1-9d4a-3675bea10af8")
+	)
+	(fp_circle
+		(center -2.05 0)
+		(end -2.05 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "252391dd-140a-46a0-aaa7-bbbdaa7c07eb")
+	)
+	(fp_line
+		(start -2.95 -6.5)
+		(end 17.5 -6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59358529-7f43-4331-8b91-634a481ea6d4")
+	)
+	(fp_line
+		(start -2.95 6.5)
+		(end -2.95 -6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38f0c52a-2563-40d4-9ee2-9f5cf921afc0")
+	)
+	(fp_line
+		(start 17.5 -6.5)
+		(end 17.5 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b222cd3-2b14-4a32-852a-a7da6433a761")
+	)
+	(fp_line
+		(start 17.5 6.5)
+		(end -2.95 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "807bda0e-6905-4b5a-be50-a17834160b62")
+	)
+	(fp_line
+		(start -1.5 -5.5)
+		(end 16.5 -5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25ab396a-9d47-4f69-a5cb-a6f481ab65f2")
+	)
+	(fp_line
+		(start -1.5 5.5)
+		(end -1.5 -5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88035f00-0ff1-41fe-8fa9-f78ea0570ca1")
+	)
+	(fp_line
+		(start 16.5 -5.5)
+		(end 16.5 5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0d48b0c-2c34-4667-b6da-88d6e02e2f59")
+	)
+	(fp_line
+		(start 16.5 5.5)
+		(end -1.5 5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2926c61c-9d70-4914-a030-f113591157e9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e9eb3698-9c31-4100-bd62-2fc139e2cb88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28671cd1-9aa9-4dbd-be00-07646f9f80e0")
+	)
+	(pad "2" thru_hole circle
+		(at 15 0)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 1.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "8a350e82-43d4-4db8-8589-dc8f139b659e")
+	)
+	(embedded_fonts no)
+	(model "${TM_LIB}/3dmodels/TM_Passivos.3dshapes/B32652A3105J000.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

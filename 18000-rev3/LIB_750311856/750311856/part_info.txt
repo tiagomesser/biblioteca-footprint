@@ -1,9 +1,0 @@
-Manufacturer=Würth Elektronik
-PartNumber=750311856
-PartCategory=Transformer
-PackageCategory=Other
-PinCount=12
-Version=3.1
-Released=2017-01-12 20:05:57
-Downloaded=2025-04-25 02:04:16
-3D=Y

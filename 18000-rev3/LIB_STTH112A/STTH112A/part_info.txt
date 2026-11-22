@@ -1,9 +1,0 @@
-Manufacturer=STMicroelectronics
-PartNumber=STTH112A
-PartCategory=Diode
-PackageCategory=Diodes Moulded
-PinCount=2
-Version=5.1
-Released=2015-09-01 16:33:09
-Downloaded=2025-04-25 18:29:33
-3D=Y

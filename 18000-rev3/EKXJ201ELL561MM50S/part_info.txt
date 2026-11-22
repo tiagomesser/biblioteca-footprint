@@ -1,9 +1,0 @@
-Manufacturer=Chemi-Con
-PartNumber=EKXJ201ELL561MM50S
-PartCategory=Capacitor Polarised
-PackageCategory=Capacitor, Polarized Radial Diameter
-PinCount=2
-Version=1.1
-Released=2020-02-20 14:08:25
-Downloaded=2025-07-17 01:02:32
-3D=Y

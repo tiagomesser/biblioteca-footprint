@@ -1,0 +1,4439 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "BAS21HT1G" (in_bom yes) (on_board yes) (pin_names hide)
+    (property "Reference" "D" (at 11.43 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "BAS21HT1G" (at 11.43 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Potencia:SOD2512X110N" (at 11.43 -97.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAS21HT1-D.PDF" (at 11.43 -197.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "NSV Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable; These Devices are Pb-Free, Halogen Free/BFR Free and are RoHS Compliant" (at 11.43 -297.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "1.1" (at 11.43 -397.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "863-BAS21HT1G" (at 11.43 -497.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BAS21HT1G?qs=OSf9jACorvZv48ci3NaucA%3D%3D" (at 11.43 -597.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "onsemi" (at 11.43 -697.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "BAS21HT1G" (at 11.43 -797.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (polyline
+      (pts
+        (xy 5.08 2.54)
+        (xy 5.08 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.54 0)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 10.16 0)
+        (xy 12.7 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 0)
+        (xy 10.16 2.54)
+        (xy 10.16 -2.54)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (pin passive line (at 0 0 0) (length 2.54)
+      (name "K" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 15.24 0 180) (length 2.54)
+      (name "A" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "BZT52C3V9S_C22375299"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "D" (at 0 2 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "BZT52C3V9S_C22375299" (at 0 -2 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-323" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404291654_hongjiacheng-BZT52C3V9S_C22375299.pdf" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "-55℃~+150℃ 1 Independent 200mW 3.7V~4.1V 3.9V 3uA 600Ω 90Ω SOD-323 Zener Diodes ROHS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "BZT52C3V9S C22375299 SOD-323_L1.7-W1.3-LS2.5-RD hongjiacheng" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C22375299" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "hongjiacheng" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part" "BZT52C3V9S" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "BZT52C3V9S_C22375299_0_1"
+      (polyline
+        (pts (xy -1.27 0) (xy -2.54 0))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 2.54 0) (xy 1.27 0))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -2.032 2.032) (xy -1.27 1.524) (xy -1.27 -1.524) (xy -0.508 -2.032))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 1.27 1.778) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.778))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (pin unspecified line (at -5.08 0 0) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27)) hide))
+        (number "1" (effects (font (size 1.27 1.27)) hide))
+      )
+      (pin unspecified line (at 5.08 0 180) (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27)) hide))
+        (number "2" (effects (font (size 1.27 1.27)) hide))
+      )
+    )
+  )
+	(symbol "IKW40N65ES5"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IKW40N65ES5"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+			(at 5.08 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "40A, 650V, N-Channel IGBT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "N-Channel IGBT Power Transistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO?247*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "IKW40N65ES5_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0.254 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.016) (xy 0.762 -2.032)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.032) (xy 0.762 1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.413) (xy 0.762 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -0.889) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.413) (xy 0.762 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.397 -2.159) (xy 1.651 -1.651) (xy 2.54 -2.413) (xy 1.397 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.159 1.905) (xy 1.905 2.413) (xy 1.016 1.651) (xy 2.159 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 0)
+				(radius 2.8194)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "IKW40N65ES5_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 5.08)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "E"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "IPP110N20N3_G"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 11.43 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "IPP110N20N3_G"
+			(at 11.43 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Potencia:TO254P457X1003X2115-3P"
+			(at 11.43 -98.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPP_I_110N20N3G_IPB107N20N3G-DS-v02_03-en.pdf?fileId=db3a3043243b5f170124968e7d1f18e7"
+			(at 11.43 -198.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOSFET N-Channel 200V 88A OptiMOS3 TO220 Infineon IPP110N20N3 G N-channel MOSFET Transistor, 88 A, 200 V, 3-Pin TO-220"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.57"
+			(at 11.43 -398.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "726-IPP110N20N3G"
+			(at 11.43 -498.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPP110N20N3-G?qs=nTClRYuuQBpD3R4g85pVvA%3D%3D"
+			(at 11.43 -598.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 11.43 -698.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPP110N20N3 G"
+			(at 11.43 -798.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "IPP110N20N3_G_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.08) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.842 5.588) (xy 5.842 4.572)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.842 2.032) (xy 5.842 3.048)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.842 0) (xy 7.62 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.842 -0.508) (xy 5.842 0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 2.54)
+				(radius 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 5.842 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 5.842 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 7.62 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 10.16 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "IRF200P222" (in_bom yes) (on_board yes)
+    (property "Reference" "IC" (at 16.51 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "IRF200P222" (at 16.51 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Potencia:TO546P531X1558X2499-3P" (at 16.51 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/IRF200P222.pdf" (at 16.51 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "MOSFET IFX OPTIMOS" (at 16.51 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "5.31" (at 16.51 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "726-IRF200P222" (at 16.51 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRF200P222?qs=u4fy%2FsgLU9OLOvVdBnoDSQ%3D%3D" (at 16.51 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Infineon" (at 16.51 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "IRF200P222" (at 16.51 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (rectangle
+      (start 5.08 2.54)
+      (end 15.24 -7.62)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "G" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "D" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -5.08 0) (length 5.08)
+      (name "S" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "MM3Z10VST1G" (in_bom yes) (on_board yes) (pin_names hide)
+    (property "Reference" "Z" (at 10.16 8.89 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "MM3Z10VST1G" (at 10.16 6.35 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Potencia:SOD2512X110N_MM3Z10VST1G" (at 10.16 -93.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/MM3Z2V4ST1-D.PDF" (at 10.16 -193.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "Standard Zener Breakdown Voltage Range - 2.4 V to 75 V; Steady State Power Rating of 300 mW; ESD Rating of Class 3 (>16 KV) per Human Body Model Mechanical Characteristics:; Tight Tolerance ; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260?C for 10 Seconds; FLAMMABILITY RATING: UL94 V-0; These Devices are PbFree, Halogen Free/BFR Free and are RoHS Compliant; AEC-Q101 Qualified and PPAP Capable ; SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements" (at 10.16 -293.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "1.1" (at 10.16 -393.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "863-MM3Z10VST1G" (at 10.16 -493.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MM3Z10VST1G?qs=HVbQlW5zcXXzjT3ckAO0iA%3D%3D" (at 10.16 -593.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "onsemi" (at 10.16 -693.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "MM3Z10VST1G" (at 10.16 -793.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (polyline
+      (pts
+        (xy 5.08 2.032)
+        (xy 5.08 -2.032)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 2.032)
+        (xy 6.096 2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 4.064 -2.54)
+        (xy 5.08 -2.032)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.54 0)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 12.7 0)
+        (xy 10.16 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 0)
+        (xy 10.16 2.54)
+        (xy 10.16 -2.54)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (pin passive line (at 0 0 0) (length 2.54)
+      (name "K" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 15.24 0 180) (length 2.54)
+      (name "A" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "MURS160HE3_A_H" (in_bom yes) (on_board yes) (pin_names hide)
+    (property "Reference" "D" (at 11.43 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "MURS160HE3_A_H" (at 11.43 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Potencia:DIOM5436X244N" (at 11.43 -97.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://www.vishay.com/docs/88688/murs140.pdf" (at 11.43 -197.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "Rectifiers 1A,600V,50ns SMB, UF Rect, SMD" (at 11.43 -297.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "2.44" (at 11.43 -397.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "78-MURS160HE3_A/H" (at 11.43 -497.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/MURS160HE3_A-H?qs=3SS1MhAOHqq6H5%2FgmjoJ4g%3D%3D" (at 11.43 -597.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Vishay" (at 11.43 -697.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "MURS160HE3_A/H" (at 11.43 -797.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (polyline
+      (pts
+        (xy 5.08 2.54)
+        (xy 5.08 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.54 0)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 10.16 0)
+        (xy 12.7 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 0)
+        (xy 10.16 2.54)
+        (xy 10.16 -2.54)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (pin passive line (at 0 0 0) (length 2.54)
+      (name "K" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 15.24 0 180) (length 2.54)
+      (name "A" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "NRVUS220VT3G-GA01"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 11.43 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "NRVUS220VT3G-GA01"
+			(at 11.43 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Potencia:DIOM5436X247N"
+			(at 11.43 -97.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/MURS220T3-D.PDF"
+			(at 11.43 -197.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Power Rectifier, Ultra-Fast Recovery, 2 A, 200 V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.47"
+			(at 11.43 -397.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 11.43 -497.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 11.43 -597.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 11.43 -697.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NRVUS220VT3G-GA01"
+			(at 11.43 -797.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "NRVUS220VT3G-GA01_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 12.7 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NSVBAS21HT1G"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 11.43 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "NSVBAS21HT1G"
+			(at 11.43 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Potencia:LEDC1712X100N"
+			(at 11.43 -97.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/products/discrete-power-modules/small-signal-switching-diodes/BAS21HT"
+			(at 11.43 -197.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "250 V Switching Diode High Voltage"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 11.43 -397.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "863-NSVBAS21HT1G"
+			(at 11.43 -497.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NSVBAS21HT1G?qs=pqrSHODkHot9ArUSxEfUgA%3D%3D"
+			(at 11.43 -597.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 11.43 -697.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NSVBAS21HT1G"
+			(at 11.43 -797.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "NSVBAS21HT1G_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 12.7 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PMEG10020ELRX" (in_bom yes) (on_board yes) (pin_names hide)
+    (property "Reference" "D" (at 12.7 8.89 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "PMEG10020ELRX" (at 12.7 6.35 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Potencia:SODFL3517X110N" (at 12.7 -93.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf" (at 12.7 -193.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "Schottky Diodes & Rectifiers 2A Schottky Barrier Rectifier" (at 12.7 -293.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "1.1" (at 12.7 -393.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "771-PMEG10020ELRX" (at 12.7 -493.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMEG10020ELRX?qs=bel5lzaZNxQmrosujSY5VA%3D%3D" (at 12.7 -593.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Nexperia" (at 12.7 -693.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "PMEG10020ELRX" (at 12.7 -793.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (polyline
+      (pts
+        (xy 7.62 2.54)
+        (xy 7.62 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 7.62 2.54)
+        (xy 8.636 2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 8.636 1.524)
+        (xy 8.636 2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 7.62 -2.54)
+        (xy 6.604 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 6.604 -1.524)
+        (xy 6.604 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 0)
+        (xy 7.62 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 12.7 0)
+        (xy 15.24 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 7.62 0)
+        (xy 12.7 2.54)
+        (xy 12.7 -2.54)
+        (xy 7.62 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (pin passive line (at 2.54 0 0) (length 2.54)
+      (name "K" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 17.78 0 180) (length 2.54)
+      (name "A" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "PMEG100V060ELPEZ" (in_bom yes) (on_board yes)
+    (property "Reference" "D" (at 19.05 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "PMEG100V060ELPEZ" (at 19.05 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Potencia:PMEG100V060ELPEZ" (at 19.05 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG100V060ELPE.pdf" (at 19.05 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "PMEG100V060ELPE - 100 V, 6 A low leakage current Schottky barrier rectifier@en-us" (at 19.05 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "0.99" (at 19.05 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "771-PMEG100V060ELPEZ" (at 19.05 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMEG100V060ELPEZ?qs=vvQtp7zwQdNoUw8uBTVGpw%3D%3D" (at 19.05 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Nexperia" (at 19.05 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "PMEG100V060ELPEZ" (at 19.05 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (rectangle
+      (start 5.08 2.54)
+      (end 17.78 -5.08)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "A_1" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "A_2" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 22.86 0 180) (length 5.08)
+      (name "K" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "PU6BBH"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 11.43 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "PU6BBH"
+			(at 11.43 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Potencia:DIOM5436X265N"
+			(at 11.43 -97.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/PU6BBH%20SERIES_B2109.pdf"
+			(at 11.43 -197.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Rectifiers 25ns, 6A, 100V, Ultra Fast Recovery Rectifier"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.65"
+			(at 11.43 -397.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 11.43 -497.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 11.43 -597.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Taiwan Semiconductor"
+			(at 11.43 -697.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PU6BBH"
+			(at 11.43 -797.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "PU6BBH_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 12.7 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RB080AR-40T7R"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 12.7 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "RB080AR-40T7R"
+			(at 12.7 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Potencia:RB080AR40T7R"
+			(at 12.7 -93.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb080ar-40t7r-e.pdf"
+			(at 12.7 -193.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RASMID Series, Low V<sub>F</sub>, 40V, 4A, SMD2012, Schottky Barrier Diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.339"
+			(at 12.7 -393.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "755-RB080AR-40T7R"
+			(at 12.7 -493.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RB080AR-40T7R?qs=Imq1NPwxi74XiEq%2FxzCvFg%3D%3D"
+			(at 12.7 -593.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 12.7 -693.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RB080AR-40T7R"
+			(at 12.7 -793.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "RB080AR-40T7R_1_1"
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 7.62 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.604 -1.524) (xy 6.604 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 7.62 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 8.636 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 6.604 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.636 1.524) (xy 8.636 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 0) (xy 15.24 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "S10MCH" (in_bom yes) (on_board yes) (pin_names hide)
+    (property "Reference" "D" (at 11.43 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "S10MCH" (at 11.43 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Potencia:DIOM7959X262N" (at 11.43 -97.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/S10GCH%20SERIES_A2102.pdf" (at 11.43 -197.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "Diode 1000 V 10A Surface Mount DO-214AB (SMC)" (at 11.43 -297.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "2.62" (at 11.43 -397.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "821-S10MCH" (at 11.43 -497.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/S10MCH?qs=lc2O%252BfHJPVafaPzwxUgUiQ%3D%3D" (at 11.43 -597.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Taiwan Semiconductor" (at 11.43 -697.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "S10MCH" (at 11.43 -797.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (polyline
+      (pts
+        (xy 5.08 2.54)
+        (xy 5.08 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.54 0)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 10.16 0)
+        (xy 12.7 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 0)
+        (xy 10.16 2.54)
+        (xy 10.16 -2.54)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (pin passive line (at 0 0 0) (length 2.54)
+      (name "K" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 15.24 0 180) (length 2.54)
+      (name "A" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "SBR40U300CTB"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 24.13 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "SBR40U300CTB"
+			(at 24.13 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Potencia:SBR40U300CTB"
+			(at 24.13 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1912071505_Diodes-Incorporated-SBR40U300CTB_C443663.pdf"
+			(at 24.13 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Schottky Diodes & Rectifiers 40A 300 ULTRA-LOW VF"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.82"
+			(at 24.13 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "621-SBR40U300CTB"
+			(at 24.13 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBR40U300CTB?qs=nSryOFbzj8Kl22ChW302NA%3D%3D"
+			(at 24.13 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 24.13 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SBR40U300CTB"
+			(at 24.13 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "SBR40U300CTB_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 22.86 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "A_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 0 180)
+				(length 5.08)
+				(name "COM_K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "A_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SD0805S020S0R5"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 11.43 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "SD0805S020S0R5"
+			(at 11.43 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Potencia:DIOC2013X100N"
+			(at 11.43 -97.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/schottky.pdf"
+			(at 11.43 -197.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "AVX - SD0805S020S0R5 - Schottky Rectifier, 20 V, 500 mA, Single, SOD-323, 2 Pins, 440 mV"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 11.43 -397.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "581-SD0805S020S0R5"
+			(at 11.43 -497.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/SD0805S020S0R5?qs=jCA%252BPfw4LHZ%252BeTNuLGlRmA%3D%3D"
+			(at 11.43 -597.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 11.43 -697.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SD0805S020S0R5"
+			(at 11.43 -797.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "SD0805S020S0R5_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 12.7 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SMBJ18CA" (in_bom yes) (on_board yes) (pin_names hide)
+    (property "Reference" "D" (at 12.7 8.89 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "SMBJ18CA" (at 12.7 6.35 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "TM_Potencia:DIOM5436X261N" (at 12.7 -93.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf" (at 12.7 -193.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ki_description" "Littelfuse SMBJ18CA Bi-Directional TVS Diode, 600W peak, 2-Pin DO-214AA" (at 12.7 -293.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Height" "2.61" (at 12.7 -393.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Mouser Part Number" "576-SMBJ18CA" (at 12.7 -493.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ18CA?qs=HR2RnyOI4E5LXIGVih8ojg%3D%3D" (at 12.7 -593.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Manufacturer_Name" "LITTELFUSE" (at 12.7 -693.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Manufacturer_Part_Number" "SMBJ18CA" (at 12.7 -793.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (polyline
+      (pts
+        (xy 10.16 0)
+        (xy 5.08 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 2.54)
+        (xy 5.08 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 2.54)
+        (xy 10.16 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 10.16 0)
+        (xy 15.24 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 15.24 2.54)
+        (xy 15.24 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 15.24 2.54)
+        (xy 10.16 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 10.16 -2.032)
+        (xy 10.16 2.032)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 9.144 2.54)
+        (xy 10.16 2.032)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 10.16 -2.032)
+        (xy 11.176 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "1" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 20.32 0 180) (length 5.08)
+      (name "2" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "SMCJ120A"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 10.16 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMCJ120A"
+			(at 10.16 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "TM_Potencia:DIOM7959X262N_SMCJ120A"
+			(at 10.16 -93.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=37388813-0d6d-4329-969b-1aa8b7614ac1&filename=littelfuse-tvs-diode-smcj-datasheet"
+			(at 10.16 -193.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "193V Clamp 7.8A Ipp Tvs Diode Surface Mount DO-214AB (SMCJ)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.62"
+			(at 10.16 -393.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "576-SMCJ120A"
+			(at 10.16 -493.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMCJ120A?qs=HR2RnyOI4E512%252BAe8nyr5w%3D%3D"
+			(at 10.16 -593.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 10.16 -693.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMCJ120A"
+			(at 10.16 -793.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(symbol "SMCJ120A_1_1"
+			(polyline
+				(pts
+					(xy 4.064 2.54) (xy 5.08 2.032)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 10.16 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.032) (xy 5.08 2.032)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.032) (xy 6.096 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 10.16 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 5.08)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "STPS1L30A" (in_bom yes) (on_board yes) (pin_names hide)
+    (property "Reference" "D" (at 11.43 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "STPS1L30A" (at 11.43 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Potencia:DIOM5226X223M" (at 11.43 -97.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001323.pdf" (at 11.43 -197.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "Schottky barrier diode,STPS1L30A SMA STMicroelectronics STPS1L30A, SMT Schottky Diode, 30V 1A, 2-Pin DO-214AC" (at 11.43 -297.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "2.23" (at 11.43 -397.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "511-STPS1L30A" (at 11.43 -497.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STPS1L30A?qs=46HR8ipXVSuHYAtVpcwRVg%3D%3D" (at 11.43 -597.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "STMicroelectronics" (at 11.43 -697.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "STPS1L30A" (at 11.43 -797.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (polyline
+      (pts
+        (xy 5.08 2.54)
+        (xy 5.08 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.54 0)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 10.16 0)
+        (xy 12.7 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 0)
+        (xy 10.16 2.54)
+        (xy 10.16 -2.54)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (pin passive line (at 0 0 0) (length 2.54)
+      (name "K" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 15.24 0 180) (length 2.54)
+      (name "A" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "STTH1002CB-TR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 19.05 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "STTH1002CB-TR"
+			(at 19.05 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Potencia:STTH1002CBTR"
+			(at 19.05 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stth1002c.pdf"
+			(at 19.05 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "200 V, 10 A dual Ultrafast Diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.63"
+			(at 19.05 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "511-STTH1002CB-TR"
+			(at 19.05 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STTH1002CB-TR?qs=QxF4U1u29WCadr2TzoK1fA%3D%3D"
+			(at 19.05 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 19.05 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STTH1002CB-TR"
+			(at 19.05 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "STTH1002CB-TR_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 17.78 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 22.86 -2.54 180)
+				(length 5.08)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 0 180)
+				(length 5.08)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "STTH112A" (in_bom yes) (on_board yes) (pin_names hide)
+    (property "Reference" "D" (at 11.43 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "STTH112A" (at 11.43 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Potencia:DIOM5126X265M" (at 11.43 -97.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00003260.pdf" (at 11.43 -197.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" " Low forwarded voltage drop  High reliability  High surge current capability  Soft switching for reduced EMI disturbances  Planar technology" (at 11.43 -297.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "2.65" (at 11.43 -397.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "511-STTH112A" (at 11.43 -497.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STTH112A?qs=1X0wRT6hCqH%2F7s%2FmzYZuyg%3D%3D" (at 11.43 -597.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "STMicroelectronics" (at 11.43 -697.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "STTH112A" (at 11.43 -797.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (polyline
+      (pts
+        (xy 5.08 2.54)
+        (xy 5.08 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.54 0)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 10.16 0)
+        (xy 12.7 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 0)
+        (xy 10.16 2.54)
+        (xy 10.16 -2.54)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (pin passive line (at 0 0 0) (length 2.54)
+      (name "K" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 15.24 0 180) (length 2.54)
+      (name "A" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "STTH8R06D" (in_bom yes) (on_board yes) (pin_names hide)
+    (property "Reference" "D" (at 11.43 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "STTH8R06D" (at 11.43 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Potencia:TO510P460X1020X2005-2P" (at 11.43 -97.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://www.st.com/resource/en/datasheet/stth8r06.pdf" (at 11.43 -197.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "Rectifiers 8.0 Amp 600 Volt" (at 11.43 -297.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "4.6" (at 11.43 -397.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "511-STTH8R06D" (at 11.43 -497.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STTH8R06D?qs=sMZUW2WomJIxbhGLcMmR9Q%3D%3D" (at 11.43 -597.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "STMicroelectronics" (at 11.43 -697.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "STTH8R06D" (at 11.43 -797.46 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (polyline
+      (pts
+        (xy 5.08 2.54)
+        (xy 5.08 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.54 0)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 10.16 0)
+        (xy 12.7 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 0)
+        (xy 10.16 2.54)
+        (xy 10.16 -2.54)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (pin passive line (at 0 0 0) (length 2.54)
+      (name "K" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 15.24 0 180) (length 2.54)
+      (name "A" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "TPH2R608NH_L1Q_M"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "Q" (at 0 9.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TPH2R608NH_L1Q_M" (at 0 -7.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "TM_Potencia:TPH2R608NH_L1Q_M" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306061458_TOSHIBA-TPH2R608NH-L1Q-M_C5379811.pdf" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 N-channel 1.1nF 142W 150A 2.1mΩ@10V 4.6nF 4V 50pF 72nC@10V 75V N-Channel ±20V SOP-8-Advance(5x6) MOSFETs ROHS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C5379811 POWERVDFN-8_L5.0-W5.0-P1.27-LS6.0-BL TOSHIBA TPH2R608NH,L1Q(M" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5379811" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "TOSHIBA" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part" "TPH2R608NH,L1Q(M" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "TPH2R608NH_L1Q_M_0_1"
+      (polyline
+        (pts
+          (xy 4.572 -5.08)
+          (xy 4.67106 -5.070239)
+          (xy 4.766403 -5.041331)
+          (xy 4.85423 -4.994387)
+          (xy 4.93121 -4.93121)
+          (xy 4.994387 -4.85423)
+          (xy 5.041331 -4.766403)
+          (xy 5.070239 -4.67106)
+          (xy 5.08 -4.572)
+          (xy 5.070239 7.21106)
+          (xy 5.041331 7.306403)
+          (xy 4.994387 7.39423)
+          (xy 4.93121 7.47121)
+          (xy 4.85423 7.534387)
+          (xy 4.766403 7.581331)
+          (xy 4.67106 7.610239)
+          (xy 4.572 7.62)
+          (xy -4.67106 7.610239)
+          (xy -4.766403 7.581331)
+          (xy -4.85423 7.534387)
+          (xy -4.93121 7.47121)
+          (xy -4.994387 7.39423)
+          (xy -5.041331 7.306403)
+          (xy -5.070239 7.21106)
+          (xy -5.08 7.112)
+          (xy -5.070239 -4.67106)
+          (xy -5.041331 -4.766403)
+          (xy -4.994387 -4.85423)
+          (xy -4.93121 -4.93121)
+          (xy -4.85423 -4.994387)
+          (xy -4.766403 -5.041331)
+          (xy -4.67106 -5.070239)
+          (xy -4.572 -5.08)
+          (xy 4.572 -5.08)
+        )
+        (stroke (width 0.254) (type solid))
+        (fill (type background))
+      )
+      (circle (center -3.81 6.35) (radius 0.381)
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (pin unspecified line (at 7.62 5.08 180) (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 7.62 2.54 180) (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 7.62 0 180) (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 7.62 -2.54 180) (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -7.62 -2.54 0) (length 2.54)
+        (name "G" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -7.62 0 0) (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -7.62 2.54 0) (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -7.62 5.08 0) (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+	(symbol "V35PW22HM3_I"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 19.05 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "V35PW22HM3_I"
+			(at 19.05 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Potencia:V35PW22HM3I"
+			(at 19.05 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/87006/v35pw22.pdf"
+			(at 19.05 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Schottky Diodes & Rectifiers 35A 200V AEC-Q101"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 19.05 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "78-V35PW22HM3/I"
+			(at 19.05 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/V35PW22HM3-I?qs=7MVldsJ5Uay9t8H2iglZMw%3D%3D"
+			(at 19.05 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 19.05 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "V35PW22HM3/I"
+			(at 19.05 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "V35PW22HM3_I_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 17.78 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "A_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "A_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 0 180)
+				(length 5.08)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VBT5202-M3_4W"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 19.05 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "VBT5202-M3_4W"
+			(at 19.05 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Potencia:VBT5202M34W"
+			(at 19.05 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/87700/vt5202-m3.pdf"
+			(at 19.05 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Schottky Diodes & Rectifiers 5A 200V Trench Stky Rectifier"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.83"
+			(at 19.05 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "78-VBT5202-M3/4W"
+			(at 19.05 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VBT5202-M3-4W?qs=ZTNTdOMgtc3KetqcNX%2FiOw%3D%3D"
+			(at 19.05 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 19.05 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VBT5202-M3/4W"
+			(at 19.05 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "VBT5202-M3_4W_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 17.78 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin no_connect line
+				(at 0 0 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 0 180)
+				(length 5.08)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VS-8EWS12STR-M3"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 19.05 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "VS-8EWS12STR-M3"
+			(at 19.05 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Potencia:VS8EWS12STRM3"
+			(at 19.05 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/vishay-general-semiconductor-diodes-division/VS-8EWS12STR-M3/4933854?s=N4IgTCBcDaIGoGUC0AOAogdQQRjAgKgEpICyAzCALoC%2BQA"
+			(at 19.05 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "DIODE STANDARD 1200V 8A TO252AA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.52"
+			(at 19.05 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "78-VS-8EWS12STR-M3"
+			(at 19.05 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-8EWS12STR-M3?qs=asPD7ZL2j3UDMpCUDynIkA%3D%3D"
+			(at 19.05 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 19.05 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VS-8EWS12STR-M3"
+			(at 19.05 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "VS-8EWS12STR-M3_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 17.78 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "A_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 0 180)
+				(length 5.08)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "A_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VT5202-M3_4W"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 12.7 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "VT5202-M3_4W"
+			(at 12.7 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+			(at 12.7 -93.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/87700/vt5202-m3.pdf"
+			(at 12.7 -193.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Schottky Diodes & Rectifiers 5A 200V Trench Stky Rectifier"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.7"
+			(at 12.7 -393.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "78-VT5202-M3/4W"
+			(at 12.7 -493.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/VT5202-M3-4W?qs=qH96uQk6rZpoQAW7QUa3qg%3D%3D"
+			(at 12.7 -593.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 12.7 -693.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VT5202-M3/4W"
+			(at 12.7 -793.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "VT5202-M3_4W_1_1"
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 7.62 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.604 -1.524) (xy 6.604 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 7.62 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 8.636 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 6.604 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.636 1.524) (xy 8.636 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 0) (xy 15.24 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

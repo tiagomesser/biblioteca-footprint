@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TM_Analogicos")(type "KiCad")(uri "${TM_LIB}/symbols/TM_Analogicos.kicad_sym")(options "")(descr ""))
+  (lib (name "TM_Conectores")(type "KiCad")(uri "${TM_LIB}/symbols/TM_Conectores.kicad_sym")(options "")(descr ""))
+  (lib (name "TM_Digitais")(type "KiCad")(uri "${TM_LIB}/symbols/TM_Digitais.kicad_sym")(options "")(descr ""))
+  (lib (name "TM_Drivers")(type "KiCad")(uri "${TM_LIB}/symbols/TM_Drivers.kicad_sym")(options "")(descr ""))
+  (lib (name "TM_Fontes")(type "KiCad")(uri "${TM_LIB}/symbols/TM_Fontes.kicad_sym")(options "")(descr ""))
+  (lib (name "TM_Magneticos")(type "KiCad")(uri "${TM_LIB}/symbols/TM_Magneticos.kicad_sym")(options "")(descr ""))
+  (lib (name "TM_Mecanicos")(type "KiCad")(uri "${TM_LIB}/symbols/TM_Mecanicos.kicad_sym")(options "")(descr ""))
+  (lib (name "TM_Passivos")(type "KiCad")(uri "${TM_LIB}/symbols/TM_Passivos.kicad_sym")(options "")(descr ""))
+  (lib (name "TM_Potencia")(type "KiCad")(uri "${TM_LIB}/symbols/TM_Potencia.kicad_sym")(options "")(descr ""))
+)

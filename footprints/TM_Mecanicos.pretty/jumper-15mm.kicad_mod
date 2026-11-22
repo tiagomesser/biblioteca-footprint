@@ -1,0 +1,160 @@
+(footprint "jumper-15mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RS6")
+	(tags "Power Supply")
+	(property "Reference" "JP"
+		(at 0.04 2.73 0)
+		(layer "F.SilkS")
+		(uuid "9bd985af-adce-4b5f-a982-7d3c16319b97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "URB_S-6WR3"
+		(at 8.445 1.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "11738095-199a-4544-aa4d-f34c98ac192c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.recom-power.com/pdf/Econoline/RS6.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81d69059-0e7c-438f-b993-85a6415a00a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Recom RS6 Through Hole 6W, Vout +/-15V dc Isolated DC-DC Converter, Vin 4.5  9 V dc"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0ccb0ee-b502-4ecb-b372-0d4558eb8916")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "11.6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a72a932-e735-46c6-9b32-47ec5c16e786")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "919-RS6-2415D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9a642f1-be8d-46ab-b3b6-5b34bbb187e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-2415D?qs=FLBwGrBR9%252B2lkkKHhWDM6A%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf6e1434-dad0-4b39-81e2-01751c100efe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "RECOM Power"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dd3fbd9-a91e-4ea7-9b3c-49fb7fbb171d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "RS6-2415D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b553c93-8511-4d00-9b50-61cadb4538c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at -0.11 2.58 0)
+		(layer "F.Fab")
+		(uuid "56b16fa1-5dc0-41c0-97a2-d9353c0a33a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96d2d3cc-d3ab-4098-ab8c-fd18740e2a70")
+	)
+	(pad "2" thru_hole circle
+		(at 15 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53f5cad0-34cb-46d6-a6b0-e8b23da93ebc")
+	)
+	(embedded_fonts no)
+	(model "${TM_LIB}/3dmodels/TM_Mecanicos.3dshapes/RS6-2415D.stp"
+		(offset
+			(xyz 8.899999485 -1.399999955 -0.09999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

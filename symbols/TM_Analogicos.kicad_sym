@@ -1,0 +1,2166 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "AMC1301DWVR"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 8.35 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "AMC1301DWVR" (at 0 -8.35 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Texas-Instruments-AMC1301DWVR_C190273.pdf" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "-40℃~+125℃ 15kV/us 30uA 5000 50uV 8.2 Differential Isolated ΔΣ (Sigma-Delta) modulator、Fault detection、Full-differential topology ±250mV SOIC-8-300mil Isolation Amplifiers ROHS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "AMC1301DWVR C190273 SOIC-8_L5.9-W7.5-P1.27-LS11.5-BL Texas Instruments" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C190273" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Texas Instruments" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part" "AMC1301DWVR" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "AMC1301DWVR_0_1"
+      (polyline
+        (pts
+          (xy 8.382 -6.35)
+          (xy 8.48106 -6.340239)
+          (xy 8.576403 -6.311331)
+          (xy 8.66423 -6.264387)
+          (xy 8.74121 -6.20121)
+          (xy 8.804387 -6.12423)
+          (xy 8.851331 -6.036403)
+          (xy 8.880239 -5.94106)
+          (xy 8.89 -5.842)
+          (xy 8.880239 5.94106)
+          (xy 8.851331 6.036403)
+          (xy 8.804387 6.12423)
+          (xy 8.74121 6.20121)
+          (xy 8.66423 6.264387)
+          (xy 8.576403 6.311331)
+          (xy 8.48106 6.340239)
+          (xy 8.382 6.35)
+          (xy -8.48106 6.340239)
+          (xy -8.576403 6.311331)
+          (xy -8.66423 6.264387)
+          (xy -8.74121 6.20121)
+          (xy -8.804387 6.12423)
+          (xy -8.851331 6.036403)
+          (xy -8.880239 5.94106)
+          (xy -8.89 5.842)
+          (xy -8.880239 -5.94106)
+          (xy -8.851331 -6.036403)
+          (xy -8.804387 -6.12423)
+          (xy -8.74121 -6.20121)
+          (xy -8.66423 -6.264387)
+          (xy -8.576403 -6.311331)
+          (xy -8.48106 -6.340239)
+          (xy -8.382 -6.35)
+          (xy 8.382 -6.35)
+        )
+        (stroke (width 0.254) (type solid))
+        (fill (type background))
+      )
+      (circle (center -7.62 5.08) (radius 0.381)
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (pin unspecified line (at -11.43 3.81 0) (length 2.54)
+        (name "VDD1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -11.43 1.27 0) (length 2.54)
+        (name "VINP" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -11.43 -1.27 0) (length 2.54)
+        (name "VINN" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -11.43 -3.81 0) (length 2.54)
+        (name "GND1" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 11.43 -3.81 180) (length 2.54)
+        (name "GND2" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 11.43 -1.27 180) (length 2.54)
+        (name "VOUTN" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 11.43 1.27 180) (length 2.54)
+        (name "VOUTP" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 11.43 3.81 180) (length 2.54)
+        (name "VDD2" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+	(symbol "AMC1311BDWVR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 26.67 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "AMC1311BDWVR"
+			(at 26.67 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Analogicos:SOIC127P1150X280-8N"
+			(at 26.67 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/amc1311"
+			(at 26.67 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Precision Reinforced Isolated Amplifier With High CMTI for Current Sensing"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.8"
+			(at 26.67 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-AMC1311BDWVR"
+			(at 26.67 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/AMC1311BDWVR?qs=W0yvOO0ixfFQekR98E4CkQ%3D%3D"
+			(at 26.67 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 26.67 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AMC1311BDWVR"
+			(at 26.67 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "AMC1311BDWVR_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 25.4 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "VDD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "SHTDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "GND1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -7.62 180)
+				(length 5.08)
+				(name "GND2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -5.08 180)
+				(length 5.08)
+				(name "VOUTN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -2.54 180)
+				(length 5.08)
+				(name "VOUTP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 0 180)
+				(length 5.08)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "INA180A3IDBVT"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "INA180A3IDBVT"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "TM_Analogicos:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-TL"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C2877844.pdf"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "TI(德州仪器)"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "INA180A3IDBVT"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2877844"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "INA180A3IDBVT_0_1"
+      (rectangle
+        (start -7.62 5.08)
+        (end 7.62 -5.08)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -6.35 3.81)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 10.16 2.54 180)
+        (length 2.54)
+        (name "VS" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 -2.54 180)
+        (length 2.54)
+        (name "IN-" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 -2.54 0)
+        (length 2.54)
+        (name "IN+" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 -0.00 0)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 2.54 0)
+        (length 2.54)
+        (name "OUT" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+	(symbol "INA181A1IDCKR"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 7.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "INA181A1IDCKR" (at 0 -7.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "TM_Analogicos:INA181A1IDCKR" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://cn.bing.com/search?q=datasheet： LM66100DCKT" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "-200mV~26V -40℃~+125℃ 1 100dB 195uA 1uV/℃ 2.7V~5.5V 20V/V 25uV 2V/us 350kHz 40nV/√Hz@1kHz 6uA 8mA Bidirectional detection、Programmable output reference level、Analog output interface、Enable/shutdown function ±26V SC-70-6 Current Sense Amplifiers ROHS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C22443503 INA181A1IDCKR SC-70-6_L2.0-W1.3-P0.65-LS2.1-BL Texas Instruments" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C22443503" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Texas Instruments" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part" "INA181A1IDCKR" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "INA181A1IDCKR_0_1"
+      (polyline
+        (pts
+          (xy 5.842 -5.08)
+          (xy 5.94106 -5.070239)
+          (xy 6.036403 -5.041331)
+          (xy 6.12423 -4.994387)
+          (xy 6.20121 -4.93121)
+          (xy 6.264387 -4.85423)
+          (xy 6.311331 -4.766403)
+          (xy 6.340239 -4.67106)
+          (xy 6.35 -4.572)
+          (xy 6.340239 4.67106)
+          (xy 6.311331 4.766403)
+          (xy 6.264387 4.85423)
+          (xy 6.20121 4.93121)
+          (xy 6.12423 4.994387)
+          (xy 6.036403 5.041331)
+          (xy 5.94106 5.070239)
+          (xy 5.842 5.08)
+          (xy -5.94106 5.070239)
+          (xy -6.036403 5.041331)
+          (xy -6.12423 4.994387)
+          (xy -6.20121 4.93121)
+          (xy -6.264387 4.85423)
+          (xy -6.311331 4.766403)
+          (xy -6.340239 4.67106)
+          (xy -6.35 4.572)
+          (xy -6.340239 -4.67106)
+          (xy -6.311331 -4.766403)
+          (xy -6.264387 -4.85423)
+          (xy -6.20121 -4.93121)
+          (xy -6.12423 -4.994387)
+          (xy -6.036403 -5.041331)
+          (xy -5.94106 -5.070239)
+          (xy -5.842 -5.08)
+          (xy 5.842 -5.08)
+        )
+        (stroke (width 0.254) (type solid))
+        (fill (type background))
+      )
+      (circle (center -5.08 3.81) (radius 0.381)
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (pin unspecified line (at -8.89 2.54 0) (length 2.54)
+        (name "REF" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -8.89 0 0) (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -8.89 -2.54 0) (length 2.54)
+        (name "VS" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 8.89 -2.54 180) (length 2.54)
+        (name "IN+" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 8.89 0 180) (length 2.54)
+        (name "IN-" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 8.89 2.54 180) (length 2.54)
+        (name "OUT" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+	(symbol "LM2904WYDT" (in_bom yes) (on_board yes)
+    (property "Reference" "IC" (at 67.31 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "LM2904WYDT" (at 67.31 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Analogicos:SOIC127P600X175-8M" (at 67.31 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-LM2904WYDT_C105410.pdf" (at 67.31 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "STMicroelectronics LM2904WYDT, Quad Low Power Op Amp, 1.1MHz, 3  30 V, 8-Pin SOP" (at 67.31 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "1.75" (at 67.31 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "" (at 67.31 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "" (at 67.31 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "STMicroelectronics" (at 67.31 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "LM2904WYDT" (at 67.31 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (rectangle
+      (start 5.08 2.54)
+      (end 66.04 -10.16)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "OUTPUT_A" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "INVERTING_INPUT_A" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -5.08 0) (length 5.08)
+      (name "NON-INVERTING_INPUT_A" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -7.62 0) (length 5.08)
+      (name "VCC-" (effects (font (size 1.27 1.27))))
+      (number "4" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 71.12 0 180) (length 5.08)
+      (name "VCC+" (effects (font (size 1.27 1.27))))
+      (number "8" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 71.12 -2.54 180) (length 5.08)
+      (name "OUTPUT_B" (effects (font (size 1.27 1.27))))
+      (number "7" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 71.12 -5.08 180) (length 5.08)
+      (name "INVERTING_INPUT_B" (effects (font (size 1.27 1.27))))
+      (number "6" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 71.12 -7.62 180) (length 5.08)
+      (name "NON-INVERTING_INPUT_B" (effects (font (size 1.27 1.27))))
+      (number "5" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "MCP9700T-E_TT"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 7.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "MCP9700T-E_TT" (at 0 -7.588 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192127_Microchip-Tech-MCP9700T-E-TT_C42288.pdf" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "-40℃~+125℃ 2.3V~5.5V ±2℃ SOT-23 Temperature Sensors ROHS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C42288 MCP9700T-E/TT Microchip Tech SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C42288" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Microchip Tech" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part" "MCP9700T-E/TT" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "MCP9700T-E_TT_0_1"
+      (polyline
+        (pts
+          (xy 6.604 -5.588)
+          (xy 6.70306 -5.578239)
+          (xy 6.798403 -5.549331)
+          (xy 6.88623 -5.502387)
+          (xy 6.96321 -5.43921)
+          (xy 7.026387 -5.36223)
+          (xy 7.073331 -5.274403)
+          (xy 7.102239 -5.17906)
+          (xy 7.112 -5.08)
+          (xy 7.102239 4.67106)
+          (xy 7.073331 4.766403)
+          (xy 7.026387 4.85423)
+          (xy 6.96321 4.93121)
+          (xy 6.88623 4.994387)
+          (xy 6.798403 5.041331)
+          (xy 6.70306 5.070239)
+          (xy 6.604 5.08)
+          (xy -2.13106 5.070239)
+          (xy -2.226403 5.041331)
+          (xy -2.31423 4.994387)
+          (xy -2.39121 4.93121)
+          (xy -2.454387 4.85423)
+          (xy -2.501331 4.766403)
+          (xy -2.530239 4.67106)
+          (xy -2.54 4.572)
+          (xy -2.530239 -5.17906)
+          (xy -2.501331 -5.274403)
+          (xy -2.454387 -5.36223)
+          (xy -2.39121 -5.43921)
+          (xy -2.31423 -5.502387)
+          (xy -2.226403 -5.549331)
+          (xy -2.13106 -5.578239)
+          (xy -2.032 -5.588)
+          (xy 6.604 -5.588)
+        )
+        (stroke (width 0.254) (type solid))
+        (fill (type background))
+      )
+      (circle (center -1.778 4.318) (radius 0.381)
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (pin unspecified line (at -5.08 2.54 0) (length 2.54)
+        (name "VDD" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -5.08 0 0) (length 2.54)
+        (name "VOUT" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -5.08 -2.54 0) (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+	(symbol "NE555DR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 26.67 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "NE555DR"
+			(at 26.67 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Analogicos:SOIC127P600X175-8N"
+			(at 26.67 -87.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https: //www.ti.com/lit/gpn/ne555"
+			(at 26.67 -187.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Single Precision Timer"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.75"
+			(at 26.67 -387.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 26.67 -487.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NE555DR"
+			(at 26.67 -587.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-NE555DR"
+			(at 26.67 -687.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/NE555DR?qs=gb35HGp1gQJ5U8ZthvvoVQ%3D%3D"
+			(at 26.67 -787.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "NE555DR"
+			(at 26.67 -887.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ne555dr/texas-instruments?region=nac"
+			(at 26.67 -987.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "NE555DR_1_1"
+			(rectangle
+				(start 5.08 10.16)
+				(end 25.4 -20.32)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 15.24 -25.4 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "TRIG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 0 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 15.24 270)
+				(length 5.08)
+				(name "CONT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "THRES"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "DISCH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 15.24 270)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "OPA2388IDR" (in_bom yes) (on_board yes)
+    (property "Reference" "IC" (at 26.67 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "OPA2388IDR" (at 26.67 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Analogicos:SOIC127P600X175-8M_OPA2388IDR" (at 26.67 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http://www.ti.com/lit/gpn/opa388" (at 26.67 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "Precision Amplifiers Dual, 10MHz, CMOS, Zero-Drift, Zero-Crossover, True RRIO Precision Operational Amplifier" (at 26.67 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "1.75" (at 26.67 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "595-OPA2388IDR" (at 26.67 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA2388IDR?qs=HXFqYaX1Q2yURrzuKoiF7g%3D%3D" (at 26.67 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Texas Instruments" (at 26.67 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "OPA2388IDR" (at 26.67 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (rectangle
+      (start 5.08 2.54)
+      (end 25.4 -10.16)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "OUT_A" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "-IN_A" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -5.08 0) (length 5.08)
+      (name "+IN_A" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -7.62 0) (length 5.08)
+      (name "V-" (effects (font (size 1.27 1.27))))
+      (number "4" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 30.48 0 180) (length 5.08)
+      (name "V+" (effects (font (size 1.27 1.27))))
+      (number "8" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 30.48 -2.54 180) (length 5.08)
+      (name "OUT_B" (effects (font (size 1.27 1.27))))
+      (number "7" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 30.48 -5.08 180) (length 5.08)
+      (name "-IN_B" (effects (font (size 1.27 1.27))))
+      (number "6" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 30.48 -7.62 180) (length 5.08)
+      (name "+IN_B" (effects (font (size 1.27 1.27))))
+      (number "5" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "TLV3201AIDBVT"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 15.24 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "TLV3201AIDBVT"
+      (id 1)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "TM_Analogicos:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+      (id 2)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Analog-Comparators_TI_TLV3201AIDBVT_TLV3201AIDBVT_C83561.html"
+      (id 3)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "TI(德州仪器)"
+      (id 4)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "TLV3201AIDBVT"
+      (id 5)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C83561"
+      (id 6)
+      (at 0 -27.94 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Comparators"
+      (id 8)
+      (at 0 -30.48 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "TLV3201AIDBVT_0_1"
+      (polyline
+        (pts
+          (xy -5.08 -5.08) (xy 5.08 -0.00) (xy -5.08 5.08) (xy -5.08 -5.08)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -4.06 2.54) (xy -2.54 2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -4.06 -2.54) (xy -2.54 -2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.30 -1.78) (xy -3.30 -3.30)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.00 5.08) (xy 0.00 2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.00 -2.54) (xy 0.00 -5.08)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin power_in line
+        (at 0.00 10.16 270)
+        (length 5.08)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 -2.54 0)
+        (length 5.08)
+        (name "VIN+" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 2.54 0)
+        (length 5.08)
+        (name "VIN-" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line
+        (at 0.00 -10.16 90)
+        (length 5.08)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 -0.00 180)
+        (length 5.08)
+        (name "OUT" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+	(symbol "TLV9001QDBVRQ1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 21.59 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "TLV9001QDBVRQ1"
+			(at 21.59 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Analogicos:SOT95P280X145-5N"
+			(at 21.59 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tlv9004-q1"
+			(at 21.59 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Operational Amplifiers - Op Amps Automotive, single-channel, 5.5-V 1-MHz rail-to-rail input and output operational amplifier"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 21.59 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV9001QDBVRQ1"
+			(at 21.59 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9001QDBVRQ1?qs=2SLPxufLcgClu8A4lY5dMQ%3D%3D"
+			(at 21.59 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 21.59 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV9001QDBVRQ1"
+			(at 21.59 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "TLV9001QDBVRQ1_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 20.32 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "IN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 0 180)
+				(length 5.08)
+				(name "IN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -2.54 180)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TLV9002IDR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 24.13 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "TLV9002IDR"
+			(at 24.13 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Analogicos:SOIC127P600X175-8N"
+			(at 24.13 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tlv9002"
+			(at 24.13 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "2-Channel, 1MHz, RRIO, 1.8V to 5.5V Operational Amplifier for Cost-Optimized Systems"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.75"
+			(at 24.13 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV9002IDR"
+			(at 24.13 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9002IDR?qs=xhbEVWpZdWdPu%252BhBN%252BBREg%3D%3D"
+			(at 24.13 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 24.13 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV9002IDR"
+			(at 24.13 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "TLV9002IDR_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 22.86 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "OUT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "IN1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "IN1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -7.62 180)
+				(length 5.08)
+				(name "IN2+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -5.08 180)
+				(length 5.08)
+				(name "IN2-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -2.54 180)
+				(length 5.08)
+				(name "OUT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 0 180)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TLV9002QDRQ1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 24.13 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "TLV9002QDRQ1"
+			(at 24.13 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Analogicos:SOIC127P600X175-8N"
+			(at 24.13 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9002-q1.pdf?ts=1606492484565&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV9002-Q1"
+			(at 24.13 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Operational Amplifiers - Op Amps 2-Channel, 1MHz, RRIO, 1.8V to 5.5V operational amplifier for cost-optimized systems 8-SOIC -40 to 125"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.75"
+			(at 24.13 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV9002QDRQ1"
+			(at 24.13 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9002QDRQ1?qs=OTrKUuiFdkaZFErnMHVpZg%3D%3D"
+			(at 24.13 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 24.13 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV9002QDRQ1"
+			(at 24.13 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "TLV9002QDRQ1_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 22.86 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "OUT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "IN1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "IN1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -7.62 180)
+				(length 5.08)
+				(name "IN2+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -5.08 180)
+				(length 5.08)
+				(name "IN2-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -2.54 180)
+				(length 5.08)
+				(name "OUT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 0 180)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

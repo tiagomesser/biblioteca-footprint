@@ -1,0 +1,12 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TM_Analogicos")(type "KiCad")(uri "${TM_LIB}/footprints/TM_Analogicos.pretty")(options "")(descr ""))
+  (lib (name "TM_Conectores")(type "KiCad")(uri "${TM_LIB}/footprints/TM_Conectores.pretty")(options "")(descr ""))
+  (lib (name "TM_Digitais")(type "KiCad")(uri "${TM_LIB}/footprints/TM_Digitais.pretty")(options "")(descr ""))
+  (lib (name "TM_Drivers")(type "KiCad")(uri "${TM_LIB}/footprints/TM_Drivers.pretty")(options "")(descr ""))
+  (lib (name "TM_Fontes")(type "KiCad")(uri "${TM_LIB}/footprints/TM_Fontes.pretty")(options "")(descr ""))
+  (lib (name "TM_Magneticos")(type "KiCad")(uri "${TM_LIB}/footprints/TM_Magneticos.pretty")(options "")(descr ""))
+  (lib (name "TM_Mecanicos")(type "KiCad")(uri "${TM_LIB}/footprints/TM_Mecanicos.pretty")(options "")(descr ""))
+  (lib (name "TM_Passivos")(type "KiCad")(uri "${TM_LIB}/footprints/TM_Passivos.pretty")(options "")(descr ""))
+  (lib (name "TM_Potencia")(type "KiCad")(uri "${TM_LIB}/footprints/TM_Potencia.pretty")(options "")(descr ""))
+)

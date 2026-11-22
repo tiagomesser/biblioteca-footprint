@@ -1,0 +1,570 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "750311856" (in_bom yes) (on_board yes)
+    (property "Reference" "T" (at 19.05 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "750311856" (at 19.05 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "TM_Magneticos:WE_EP13_SMD_12PIN81" (at 19.05 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/750311856.pdf" (at 19.05 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "1:4 Surface Mount Telecom Transformer, 3.8uH, 0.04" (at 19.05 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "" (at 19.05 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "710-750311856" (at 19.05 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=710-750311856" (at 19.05 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Wurth Elektronik" (at 19.05 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "750311856" (at 19.05 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (rectangle
+      (start 5.08 2.54)
+      (end 17.78 -20.32)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 -17.78 0) (length 5.08)
+      (name "1" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -15.24 0) (length 5.08)
+      (name "2" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -12.7 0) (length 5.08)
+      (name "3" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -10.16 0) (length 5.08)
+      (name "4" (effects (font (size 1.27 1.27))))
+      (number "4" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -7.62 0) (length 5.08)
+      (name "5" (effects (font (size 1.27 1.27))))
+      (number "5" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -5.08 0) (length 5.08)
+      (name "6" (effects (font (size 1.27 1.27))))
+      (number "6" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "7" (effects (font (size 1.27 1.27))))
+      (number "7" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "8" (effects (font (size 1.27 1.27))))
+      (number "8" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 22.86 0 180) (length 5.08)
+      (name "9" (effects (font (size 1.27 1.27))))
+      (number "9" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 22.86 -2.54 180) (length 5.08)
+      (name "10" (effects (font (size 1.27 1.27))))
+      (number "10" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 22.86 -5.08 180) (length 5.08)
+      (name "11" (effects (font (size 1.27 1.27))))
+      (number "14" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 22.86 -7.62 180) (length 5.08)
+      (name "12" (effects (font (size 1.27 1.27))))
+      (number "16" (effects (font (size 1.27 1.27))))
+    )
+  )
+	(symbol "PDMCAT953-102MLN"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PDMCAT953-102MLN"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TM_Magneticos:PDMCAT953-102MLN"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC PART#" "C5158067"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PDMCAT953-102MLN_0_1"
+			(rectangle
+				(start -10.16 -2.54)
+				(end 10.16 -15.24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PDMCAT953-102MLN_1_1"
+			(pin input line
+				(at -10.16 -5.08 0)
+				(length 2.54)
+				(name "AIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -11.43 0)
+				(length 2.54)
+				(name "AOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "BIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -11.43 180)
+				(length 2.54)
+				(name "BOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SMNR4020-22UH"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "L" (at 0 2 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SMNR4020-22UH" (at 0 -2 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "TM_Magneticos:SMNR4020-22UH" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Status" "Em avaliação"
+    	(at 0 0 0)
+    	(effects
+    		(font
+    			(size 1.27 1.27)
+    		)
+    		(hide yes)
+    	)
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108131530_SXN-Shun-Xiang-Nuo-Elec-SMNR4020-22UH_C135264.pdf" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1.05A 1.05A 22uH 455mΩ Magnetic Shielded Inductor ±20% SMD,4x4mm Power Inductors ROHS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C135264 IND-SMD_L4.0-W4.0_LQH44PN2R2MP0L SMNR4020-22UH SXN(Shun Xiang Nuo Elec)" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C135264" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "SXN(Shun Xiang Nuo Elec)" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part" "SMNR4020-22UH" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SMNR4020-22UH_0_1"
+      (arc (start -2.265172 0.016256) (mid -3.276219 1.028319) (end -4.288282 0.017272)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (arc (start -0.11049 0.016764) (mid -1.12141 1.029) (end -2.1336 0.018)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (arc (start 2.040128 0.016764) (mid 1.029208 1.029) (end 0.017 0.018)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (arc (start 4.233 0.016256) (mid 3.222 1.028446) (end 2.2098 0.017526)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (pin unspecified line (at 5.08 0 180) (length 0.762)
+        (name "2" (effects (font (size 1.27 1.27)) hide))
+        (number "2" (effects (font (size 1.27 1.27)) hide))
+      )
+      (pin unspecified line (at -5.08 0 0) (length 0.762)
+        (name "1" (effects (font (size 1.27 1.27)) hide))
+        (number "1" (effects (font (size 1.27 1.27)) hide))
+      )
+    )
+  )
+	(symbol "SPM6530T-2R2M-HZ"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at 16.51 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "SPM6530T-2R2M-HZ"
+			(at 16.51 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TM_Magneticos:SPM6530"
+			(at 16.51 -96.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Status" "Em avaliação"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_spm6530-hz_en.pdf"
+			(at 16.51 -196.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Fixed Inductors 2.2uH 20% 17.3mOhms Pwr Indctr AEC-Q200"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 16.51 -396.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "810-SPM6530T-2R2M-HZ"
+			(at 16.51 -496.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/SPM6530T-2R2M-HZ?qs=lYGu3FyN48d6HeJ85LXkfw%3D%3D"
+			(at 16.51 -596.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 16.51 -696.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SPM6530T-2R2M-HZ"
+			(at 16.51 -796.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "SPM6530T-2R2M-HZ_1_1"
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 15.24 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 0)
+				(mid 6.35 1.219)
+				(end 7.62 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 7.62 0)
+				(mid 8.89 1.219)
+				(end 10.16 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 10.16 0)
+				(mid 11.43 1.219)
+				(end 12.7 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 12.7 0)
+				(mid 13.97 1.219)
+				(end 15.24 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

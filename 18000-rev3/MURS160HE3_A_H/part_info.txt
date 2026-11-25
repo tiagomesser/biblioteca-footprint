@@ -1,9 +1,0 @@
-Manufacturer=Vishay
-PartNumber=MURS160HE3_A/H
-PartCategory=Diode
-PackageCategory=Diodes Moulded
-PinCount=2
-Version=1.1
-Released=2025-03-05 09:45:53
-Downloaded=2025-05-13 03:55:18
-3D=Y

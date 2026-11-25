@@ -1,9 +1,0 @@
-Manufacturer=LITTELFUSE
-PartNumber=SMBJ18CA
-PartCategory=TVS Diode (Bi-directional)
-PackageCategory=Diodes Moulded
-PinCount=2
-Version=2.1
-Released=2017-08-19 07:16:08
-Downloaded=2025-06-02 04:23:31
-3D=Y

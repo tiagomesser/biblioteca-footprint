@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 1EDI3023ASXUMA1
-D ISOLATED_HVGD, PG-DSO-20
-K
-F https://www.infineon.com/dgdl/Infineon-1EDI3023AS-DataSheet-v01_10-EN.pdf?fileId=5546d4627956d53f01798965e8a90c57
-$ENDCMP
-#
-#End Doc Library

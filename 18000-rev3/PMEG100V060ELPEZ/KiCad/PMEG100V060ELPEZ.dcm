@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP PMEG100V060ELPEZ
-D PMEG100V060ELPE - 100 V, 6 A low leakage current Schottky barrier rectifier@en-us
-K
-F https://assets.nexperia.com/documents/data-sheet/PMEG100V060ELPE.pdf
-$ENDCMP
-#
-#End Doc Library

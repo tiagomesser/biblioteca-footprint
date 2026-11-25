@@ -1,9 +1,0 @@
-Manufacturer=Nexperia
-PartNumber=PMEG100V060ELPEZ
-PartCategory=Schottky Diode
-PackageCategory=Other
-PinCount=3
-Version=2.3
-Released=2022-09-04 09:24:14
-Downloaded=2025-05-19 20:51:04
-3D=Y

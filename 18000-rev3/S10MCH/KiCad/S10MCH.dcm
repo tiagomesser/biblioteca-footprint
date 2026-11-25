@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP S10MCH
-D Diode 1000 V 10A Surface Mount DO-214AB (SMC)
-K
-F https://services.taiwansemi.com/storage/resources/datasheet/S10GCH%20SERIES_A2102.pdf
-$ENDCMP
-#
-#End Doc Library
